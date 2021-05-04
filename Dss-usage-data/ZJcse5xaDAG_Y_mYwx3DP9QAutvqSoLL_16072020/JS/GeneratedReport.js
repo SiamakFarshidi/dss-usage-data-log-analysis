@@ -1,0 +1,2 @@
+
+            var FeasibleSolutions= "<table class='tbl_FR'> <tr><th>Feasible Solution</th><th>Explanation</th></tr></table>";var NumbericFeaturesComparison="<table class='tbl_FR'> <tr><td></td></tr></table>";

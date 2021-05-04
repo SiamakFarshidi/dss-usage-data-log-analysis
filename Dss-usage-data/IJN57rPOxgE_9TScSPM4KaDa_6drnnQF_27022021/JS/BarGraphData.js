@@ -1,0 +1,1 @@
+ FeasibleSolutionsScores = [ ["Solution", "Score (%)", { role: "style" }],["Appian",89, "#3CB371"],["WaveMaker",88, "#1E90FF"],["Mendix",86, "#FF6347"],["Betty Blocks",84, "#EE82EE"],["Pega (Infinity)",79, "#808000"],["Kissflow",76, "#800000"],["Kony (Quantum)",75, "#008B8B"],["TrackVia",70, "#DC143C"],["AgilePoint (NX)",58, "#4B0082"]];

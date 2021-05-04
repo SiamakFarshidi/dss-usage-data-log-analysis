@@ -1,0 +1,2013 @@
+﻿<DecisionTree>
+  <node ID="636170012124150646" Title="Generator Architecture" DataType="Number" Level="Domain" Description="AFAS Generator Arch. Selection" Req="AFAS_GENERATOR" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="1" Active="T" />
+  </node>
+  <node ID="636172113404921037" Title="Functional appropriateness" DataType="Number" Level="Subcharacteristic" Description="degree to which the functions facilitate the accomplishment of specified tasks and objectives" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636172114021430584" Value="0" Active="T" />
+  </node>
+  <node ID="636172113542981195" Title="Functional completeness" DataType="Number" Level="Subcharacteristic" Description="degree to which the set of functions covers all the specified tasks and user objectives" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636172114021430584" Value="0" Active="T" />
+  </node>
+  <node ID="636172113845473499" Title="Functional correctness" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system provides the correct results with the needed degree of precision" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636172114021430584" Value="0" Active="T" />
+  </node>
+  <node ID="636172114021430584" Title="Functional suitability" DataType="Number" Level="Characteristic" Description="degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175733974064382" Title="Reliability" DataType="Number" Level="Characteristic" Description="degree to which a system, product or component performs specified functions under specified conditions for a specified period" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734041153890" Title="Performance efficiency" DataType="Number" Level="Characteristic" Description="performance relative to the amount of resources used under stated conditions" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734327578276" Title="Usability" DataType="Number" Level="Characteristic" Description="degree to which a product or system can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734403841172" Title="Maintainability" DataType="Number" Level="Characteristic" Description="degree of effectiveness and efficiency with which a product or system can be modified by the intended maintainers" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734487269509" Title="Security" DataType="Number" Level="Characteristic" Description="degree to which a product or system protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorization" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734592929327" Title="Compatibility" DataType="Number" Level="Characteristic" Description="degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions, while sharing the same hardware or software environment" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734894578832" Title="Portability" DataType="Number" Level="Characteristic" Description="degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware, software or other operational or usage environment to another" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175735004332057" Title="Supplier" DataType="Number" Level="Characteristic" Description="Description about anyone who provides goods or services to a company or individuals." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175735107466118" Title="Cost" DataType="Number" Level="Characteristic" Description="Denotes the amount of money that a company spends on the creation or production of goods or services." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175735187954601" Title="Product" DataType="Number" Level="Characteristic" Description="Description about any article or substance that is manufactured or refined for sale." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175735333630105" Title="Maturity" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component meets needs for reliability under normal operation" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0" Active="T" />
+  </node>
+  <node ID="636175735459250881" Title="Availability" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component is operational and accessible when required for use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0" Active="T" />
+  </node>
+  <node ID="636175735554701922" Title="Fault tolerance" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component operates as intended despite the presence of hardware or software faults" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0" Active="T" />
+  </node>
+  <node ID="636175735636115741" Title="Recoverability" DataType="Number" Level="Subcharacteristic" Description="degree to which, in the event of an interruption or a failure, a product or system can recover the data directly affected and re-establish the desired state of the system" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0" Active="T" />
+  </node>
+  <node ID="636175735767246801" Title="Time behavior" DataType="Number" Level="Subcharacteristic" Description="degree to which the response and processing times and throughput rates of a product or system, when performing its functions, meet requirements" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734041153890" Value="0" Active="T" />
+  </node>
+  <node ID="636175735861147611" Title="Resource utilization" DataType="Number" Level="Subcharacteristic" Description="degree to which the amounts and types of resources used by a product or system, when performing its functions, meet requirements" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734041153890" Value="0" Active="T" />
+  </node>
+  <node ID="636175735947464498" Title="Capacity" DataType="Number" Level="Subcharacteristic" Description="degree to which the maximum limits of a product or system parameter meet requirements" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734041153890" Value="0" Active="T" />
+  </node>
+  <node ID="636175736089117960" Title="Appropriateness recognizability" DataType="Number" Level="Subcharacteristic" Description="degree to which users can recognize whether a product or system is appropriate for their needs" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736161613182" Title="Learnability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can be used by specified users to achieve specified goals of learning to use the product or system with effectiveness, efficiency, freedom from risk and satisfaction in a specified context of use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736238145875" Title="Operability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system has attributes that make it easy to operate and control" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736318525353" Title="User error protection" DataType="Number" Level="Subcharacteristic" Description="degree to which a system protects users against making errors" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736394334791" Title="User interface aesthetics" DataType="Number" Level="Subcharacteristic" Description="degree to which a user interface enables pleasing and satisfying interaction for the user" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736481915032" Title="Accessibility" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can be used by people with the widest range of characteristics and capabilities to achieve a specified goal in a specified context of use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736574348327" Title="Modularity" DataType="Number" Level="Subcharacteristic" Description="degree to which a system or computer program is composed of discrete components such that a change to one component has minimal impact on other components" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0" Active="T" />
+  </node>
+  <node ID="636175736658415155" Title="Reusability" DataType="Number" Level="Subcharacteristic" Description="degree to which an asset can be used in more than one system, or in building other assets" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0" Active="T" />
+  </node>
+  <node ID="636175736737414037" Title="Analyzability" DataType="Number" Level="Subcharacteristic" Description="degree of effectiveness and efficiency with which it is possible to assess the impact on a product or system of an intended change to one or more of its parts, or to diagnose a product for deficiencies or causes of failures, or to identify parts to be modified" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0" Active="T" />
+  </node>
+  <node ID="636175736819554476" Title="Modifiability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can be effectively and efficiently modified without introducing defects or degrading existing product quality" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0" Active="T" />
+  </node>
+  <node ID="636175736907514970" Title="Testability" DataType="Number" Level="Subcharacteristic" Description="degree of effectiveness and efficiency with which test criteria can be established for a system, product or component and tests can be performed to determine whether those criteria have been met" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0" Active="T" />
+  </node>
+  <node ID="636175737002264787" Title="Confidentiality" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system ensures that data are accessible only to those authorized to have access" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0" Active="T" />
+  </node>
+  <node ID="636175737100880744" Title="Integrity" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component prevents unauthorized access to, or modification of, computer programs or data" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0" Active="T" />
+  </node>
+  <node ID="636175737219451508" Title="Non-repudiation" DataType="Number" Level="Subcharacteristic" Description="degree to which actions or events can be proven to have taken place, so that the events or actions cannot be repudiated later" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0" Active="T" />
+  </node>
+  <node ID="636175737309877731" Title="Accountability" DataType="Number" Level="Subcharacteristic" Description="degree to which the actions of an entity can be traced uniquely to the entity" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0" Active="T" />
+  </node>
+  <node ID="636175737412953572" Title="Authenticity" DataType="Number" Level="Subcharacteristic" Description="degree to which the identity of a subject or resource can be proved to be the one claimed" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0" Active="T" />
+  </node>
+  <node ID="636175737493820858" Title="Co-existence" DataType="Number" Level="Subcharacteristic" Description="degree to which a product can perform its required functions efficiently while sharing a common environment and resources with other products, without detrimental impact on any other product" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734592929327" Value="0" Active="T" />
+  </node>
+  <node ID="636175737597991212" Title="Interoperability" DataType="Number" Level="Subcharacteristic" Description="degree to which two or more systems, products or components can exchange information and use the information that has been exchanged" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734592929327" Value="0" Active="T" />
+  </node>
+  <node ID="636175737748576312" Title="Adaptability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can effectively and efficiently be adapted for different or evolving hardware, software or other operational or usage environments" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734894578832" Value="0" Active="T" />
+  </node>
+  <node ID="636175737916991624" Title="Installability" DataType="Number" Level="Subcharacteristic" Description="degree of effectiveness and efficiency with which a product or system can be successfully installed and/or uninstalled in a specified environment" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734894578832" Value="0" Active="T" />
+  </node>
+  <node ID="636175738006728431" Title="Replaceability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product can replace another specified software product for the same purpose in the same environment" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734894578832" Value="0" Active="T" />
+  </node>
+  <node ID="636175738090012575" Title="Organizational structure" DataType="Number" Level="Subcharacteristic" Description="Description of the organizational structure of the supplier company." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0" Active="T" />
+  </node>
+  <node ID="636175738180802901" Title="Positioning and Strength" DataType="Number" Level="Subcharacteristic" Description="Description of the position of the supplier company in the market." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0" Active="T" />
+  </node>
+  <node ID="636175738270925673" Title="Reputation" DataType="Number" Level="Subcharacteristic" Description="Capability of the supplier to perform similar projects based on past experiences and certifications." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0" Active="T" />
+  </node>
+  <node ID="636175738364778874" Title="Services Offered" DataType="Number" Level="Subcharacteristic" Description="Description of the services offered by the supplier." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0" Active="T" />
+  </node>
+  <node ID="636175738447470566" Title="Support" DataType="Number" Level="Subcharacteristic" Description="Description of the support mechanisms offered by the supplier." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0" Active="T" />
+  </node>
+  <node ID="636175738553974014" Title="Licensing Schema" DataType="Number" Level="Subcharacteristic" Description="Description of the COTS component licensing options." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0" Active="T" />
+  </node>
+  <node ID="636175738643311819" Title="Licensing Costs" DataType="Number" Level="Subcharacteristic" Description="Detail of the costs for the different licensing options" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0" Active="T" />
+  </node>
+  <node ID="636175738734268804" Title="Platform Cost" DataType="Number" Level="Subcharacteristic" Description="Estimation of the cost for the required production platform" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0" Active="T" />
+  </node>
+  <node ID="636175738825494524" Title="Implementation Cost" DataType="Number" Level="Subcharacteristic" Description="Estimation of implementation costs based on similar past experiences." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0" Active="T" />
+  </node>
+  <node ID="636175738903715696" Title="Network Cost" DataType="Number" Level="Subcharacteristic" Description="Estimation of additional cost for network operation." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0" Active="T" />
+  </node>
+  <node ID="636175738988764788" Title="Stability" DataType="Number" Level="Subcharacteristic" Description="Attributes of the product that bear on the stability of the product." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0" Active="T" />
+  </node>
+  <node ID="636175739087691080" Title="Ownership" DataType="Number" Level="Subcharacteristic" Description="Attributes in relation to the intellectual property rights." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0" Active="T" />
+  </node>
+  <node ID="636175739165373293" Title="Deliverables" DataType="Number" Level="Subcharacteristic" Description="Detail of the out of the box and post implementation deliverables." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0" Active="T" />
+  </node>
+  <node ID="636175739256195615" Title="Parameterization / Customization" DataType="Number" Level="Subcharacteristic" Description="Attributes in relation to the initial effort required for the product to operate." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0" Active="T" />
+  </node>
+  <node ID="636175739358190687" Title="Guarantees" DataType="Number" Level="Subcharacteristic" Description="Detail of the guarantees provided over the product." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0" Active="T" />
+  </node>
+  <node ID="636490227588875419" Title="API-based generator" DataType="Boolean" Level="Feature" Description="It is usually connected with a single programming language. Thus it provides the user with a special framework, which makes the code generation process more intuitive. The source code is commonly specified with the help of templates. API-based generators often have built-in compilers that are able to evaluate the generated code at once. " Req="N" Order="Template Generator " UpperLevel="Techniques" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227590123639" Title="Build incrementally from firm foundations" DataType="Boolean" Level="Feature" Description="In order to deliver real business benefit early, Atern advocates incremental delivery. This encourages stakeholder confidence and is a source of feedback for use in subsequent increments. Increments which are deployed into operational use may lead to the realisation of early business benefit." Req="N" Order="Agile Methodology (Development)" UpperLevel="Dynamic Systems Development Method (DSDM)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227591707853" Title="Close or osmotic communication" DataType="Boolean" Level="Feature" Description="Osmotic communication involves the team being together in a room and getting information to flow around it. With regards to larger teams (over 8 or so), where distraction can arise, Close Communication is used." Req="N" Order="Agile Methodology (Development)" UpperLevel="Scrum Crystal" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227593201825" Title="Code attributes" DataType="Boolean" Level="Feature" Description="This technique defines that special text such as comments can be placed in the existing source-code. In fact, these comments are specific instructions to the code generator. This technique is commonly used to automatically generate program documentation. " Req="N" Order="Template Generator " UpperLevel="Techniques" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227594408416" Title="Code munger" DataType="Boolean" Level="Feature" Description="&quot;it is the simplest of these. &quot;&quot;Mung-ing&quot;&quot; means transforming something from one form into another form, thus the generator goes through the input and searches for important features (keywords, tags, etc.) and uses them to create the output files. This kind of generator can be used to generate documentation, retrieve and collect some specific information or generate some kind of the input analysis result. &quot;" Req="N" Order="Code Generator" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736394334791" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175737916991624" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738553974014" Value="1" Active="T" />
+    <link Parent="636175738643311819" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739256195615" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="636490227597411596" Title="Code weaving" DataType="Boolean" Level="Feature" Description="This technique states the following: some independent and non-related pieces of text are manually written into the input file. At the same time it is also defined how all these fragments should be joined together during the code generation process. Finally, all these pieces would be processed and mixed to form the program source code. " Req="N" Order="Template Generator " UpperLevel="Techniques" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227598614782" Title="Coding Standards" DataType="Boolean" Level="Feature" Description="Regarding the common responsibility for the code, there should be a given common standard for writing the code." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227599938748" Title="Collaborate" DataType="Boolean" Level="Feature" Description="Teams that work in a spirit of active cooperation and commitment will always outperform groups of individuals working only in loose association. " Req="N" Order="Agile Methodology (Development)" UpperLevel="Dynamic Systems Development Method (DSDM)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227601295209" Title="Collective Ownership" DataType="Boolean" Level="Feature" Description="The whole team is responsible for the system, not individuals. Each developer must have access to all lines of code so that each developer is able to take over the task of another developer." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227602819041" Title="Communicate continuously and clearly" DataType="Boolean" Level="Feature" Description="Poor communication is often cited as the biggest single cause of project failure. Atern techniques are specifically designed to improve communication effectiveness for both teams and individuals." Req="N" Order="Agile Methodology (Development)" UpperLevel="Dynamic Systems Development Method (DSDM)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227604199554" Title="Component/Class Ownership" DataType="Boolean" Level="Feature" Description="Class code ownership in a development process denotes who (person or role) is ultimately responsible for the contents of a class (piece of code)." Req="N" Order="Agile Methodology (Development)" UpperLevel="Feature Driven Development (FDD)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227605750794" Title="Configuration Management" DataType="Boolean" Level="Feature" Description="Identifies source code for all features and maintains a history of the changes that are made so that the feature teams can enhance them." Req="N" Order="Agile Methodology (Development)" UpperLevel="Feature Driven Development (FDD)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227607245759" Title="Continuous Integration" DataType="Boolean" Level="Feature" Description="All changes to the system are integrated promptly so that not too many dependencies between changes occur." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227608824963" Title="Deliver on time" DataType="Boolean" Level="Feature" Description="Delivering products on time is a very desirable outcome for a project and is quite often the single most important success factor. " Req="N" Order="Agile Methodology (Development)" UpperLevel="Dynamic Systems Development Method (DSDM)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227609950487" Title="Demonstrate control" DataType="Boolean" Level="Feature" Description="It is essential to be in control of a project at all times. An Atern team needs to be proactive when monitoring and controlling progress in line with the Foundations Phase products, especially the Business Case. " Req="N" Order="Agile Methodology (Development)" UpperLevel="Dynamic Systems Development Method (DSDM)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227611394324" Title="Develop Iteratively" DataType="Boolean" Level="Feature" Description="In order to converge on an accurate business solution Atern uses iterative development to deliver the right solution. The concept of iteration is embedded throughout Atern�s lifecycle down to the lowest level of Timeboxing. It is very rare that anything is built perfectly first time and projects operate within a changing world. Atern advocates a pragmatic approach to change that relies on iteration in order to embrace change and produce a better solution. " Req="N" Order="Agile Methodology (Development)" UpperLevel="Dynamic Systems Development Method (DSDM)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227612828488" Title="Developing by Feature" DataType="Boolean" Level="Feature" Description="Any function that is too complex to be implemented within two weeks is further decomposed into smaller functions until each sub-problem is small enough to be called a feature. " Req="N" Order="Agile Methodology (Development)" UpperLevel="Feature Driven Development (FDD)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227614412728" Title="Direct manipulation" DataType="Boolean" Level="Feature" Description="It consists in providing an internal model representation and some mechanisms to manipulate it. It is usually implemented as an object-oriented framework, which may also provide some minimal infrastructure to organize the transformations." Req="N" Order="Model Transformation" UpperLevel="Model-to-model" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227615520677" Title="Domain Object Modeling" DataType="Boolean" Level="Feature" Description="It consists of building class diagrams depicting the significant types of objects within a problem domain and the relationships between them." Req="N" Order="Agile Methodology (Development)" UpperLevel="Feature Driven Development (FDD)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227617014800" Title="Dynamic Systems Development Method (DSDM)" DataType="Boolean" Level="Feature" Description="Dynamic Systems Development Method (DSDM) was published in 1995 by the DSDM Consortium, an association formed by vendors and experts in software engineering to provide a structure for Rapid Application Development techniques brought on by object oriented programming. The Consortium jointly developed and promoted a tool- and technique-independent development framework from best practice experiences of people working in big companies such as British Airways, American Express, Oracle and Logica. It has now evolved into a project delivery framework that is fully compatible with ISO 9000 and PRINCE2. In 2007, it was rebranded Atern after the bird Arctic Tern. However, since 2014, it has reverted back to its original name as DSDM Agile Project Framework. Also, in 2016, the DSDM Consortium rebranded as the Agile Business Consortium." Req="N" Order="Agile Methodology (Development)" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227618499152" Title="Easy access to expert users" DataType="Boolean" Level="Feature" Description="This involves the developers working with a person of expertise in the project area so that the expert answers any questions, suggest solutions to problems, etc. " Req="N" Order="Agile Methodology (Development)" UpperLevel="Scrum Crystal" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227619627278" Title="Extensions" DataType="Boolean" Level="Feature" Description="The ability to attach additional modules to extend the functionality " Req="N" Order="Template Generator " UpperLevel="Technical features" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227620594754" Title="Extreme Programming (XP)" DataType="Boolean" Level="Feature" Description="Extreme Programming (XP) was introduced in 1996 by Kent Beck when he was working on a Chrysler payroll project. Although the term was new at that time, the methods used such as pair programming, unit testing, and customer acceptance tests have existed before. What XP did differently was to take these best practices to �extreme levels�. It was created to take into account changes that are happening at that time in software development and technology, namely, object oriented programming and the Internet. XP puts importance in co-location of customers and developers, as well as pair programming, which also coincides with the values of interaction in Agile. It also has short development cycles, focusing on the needs of today rather than those of the future, sometimes called the �You aren�t gonna need it!� or YAGNI approach. Kent Beck is one of the signatories of the Agile Manifesto." Req="N" Order="Agile Methodology (Development)" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227622510258" Title="Feature Driven Development (FDD)" DataType="Boolean" Level="Feature" Description="Feature-Driven Development (FDD) was introduced in 1997 by Jeff De Luca when he was working in a software development project for a large Singapore bank. FDD was also built around software engineering best practices such as domain object modeling, developing by feature and code ownership. The blending of these practices that resulted in a cohesive whole is the best characteristic of FDD. It consists of five basic activities, namely, the development of an overall model, the building of a feature list, the planning by feature, the designing by feature, and the building by feature. Every project will have its own unique model, which will result in a feature list. The last three activities are short iterative processes, with a feature not taking longer than two weeks to build. If it will take more than two weeks, then it will have to be broken down into smaller features." Req="N" Order="Agile Methodology (Development)" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227624075945" Title="Feature Teams" DataType="Boolean" Level="Feature" Description="The implementation of a feature may involve more than one class, hence more than one Class Owner. " Req="N" Order="Agile Methodology (Development)" UpperLevel="Feature Driven Development (FDD)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227625735369" Title="Focus" DataType="Boolean" Level="Feature" Description="Focus in crystal refers to two things; firstly focusing on an individual task in a project for enough time that progress will be made and secondly, it refers to the direction of which the project is heading." Req="N" Order="Agile Methodology (Development)" UpperLevel="Scrum Crystal" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227627114055" Title="Focus on the business need" DataType="Boolean" Level="Feature" Description="Every decision taken during a project should be viewed in the light of the overriding project goal, which is to deliver what the business needs it to deliver, when it needs to be delivered. " Req="N" Order="Agile Methodology (Development)" UpperLevel="Dynamic Systems Development Method (DSDM)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227628681935" Title="Frame processors" DataType="Boolean" Level="Feature" Description="They have the following principle of operation: the code is being specified with the help of object-like frames. Each frame owns a group of attributes called slots. When a new frame is being created, its slots are connected with specific values. They may represent different aspects of the system model and also may contain references to other frames. Thus, during code generation, the frames form the tree structure of the system source code. " Req="N" Order="Template Generator " UpperLevel="Techniques" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227629674592" Title="Frequent delivery" DataType="Boolean" Level="Feature" Description="Frequent Delivery is the regular releasing of iterations of the software program.�" Req="N" Order="Agile Methodology (Development)" UpperLevel="Scrum Crystal" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227631138819" Title="Graph-transformation-based" DataType="Boolean" Level="Feature" Description="This category of model transformation approaches draws on the theoretical work on graph transformations. In particular, this category operates on typed, attributed, labeled graphs, which can be thought of as formal representations of simplified class models." Req="N" Order="Model Transformation" UpperLevel="Model-to-model" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227632417457" Title="Hybrid" DataType="Boolean" Level="Feature" Description="Hybrid approaches combine different techniques from the previous categories. The different approaches can be combined as separate components or, in a more fine-grained fashion, at the level of individual rules." Req="N" Order="Model Transformation" UpperLevel="Model-to-model" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227633675803" Title="Ignore specific syntax" DataType="Boolean" Level="Feature" Description="Code generation language independence from modeling language " Req="N" Order="Template Generator " UpperLevel="Technical features" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227635039544" Title="In-line generation" DataType="Boolean" Level="Feature" Description="This technique determines that the program source code contains text fragments, which at the time of compilation, depending on the conditions, can be extended or not included into the program at all. Such code generation technique is quite primitive, therefore it cannot be used as the main one. " Req="N" Order="Template Generator " UpperLevel="Techniques" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227636338431" Title="Inline-code expander" DataType="Boolean" Level="Feature" Description="It  reads the source code and, where it finds the predefined markup, inserts the production code. The difference to code munger is that the output is the same as the input but with corrections - additions. The negative aspect is debugging, because markup words may cause compilation errors, and even if the markup is in the comment form, the source code does not represent full execution code. " Req="N" Order="Code Generator" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736394334791" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175737916991624" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738553974014" Value="1" Active="T" />
+    <link Parent="636175738643311819" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739256195615" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="636490227639522223" Title="Inspections" DataType="Boolean" Level="Feature" Description="They should be carried out regularly to ensure there are no defects." Req="N" Order="Agile Methodology (Development)" UpperLevel="Feature Driven Development (FDD)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227641056306" Title="M2M Template-based" DataType="Boolean" Level="Feature" Description="Model templates are models with embedded meta-code that compute the variable parts of the resulting template instances. Model templates are usually expressed in the concrete syntax of the target language, which helps the developer to predict the result of template instantiation. The meta-code can have the form of annotations on model elements. Typical annotations are conditions, iterations, and expressions, all being part of the meta-language." Req="N" Order="Model Transformation" UpperLevel="Model-to-model" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227642299897" Title="M2T Template-based" DataType="Boolean" Level="Feature" Description="This transformation produces its target as an instance of the target meta-model." Req="N" Order="Model Transformation" UpperLevel="Model-to-text" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227643623145" Title="Metaphor" DataType="Boolean" Level="Feature" Description="Only a few clear metaphors should describe the system being developed so that the nitty-gritty of the system is clear to all of the project members." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227645474687" Title="Mixed-code generator" DataType="Boolean" Level="Feature" Description="It is the combination of the previous two types. The difference is that the generator output can be used as the input (modifications are done in the input file), thus the result can be regenerated. Similar to the inline-code expander the generator reads the source code and finds the predefined markup but instead of inserting the production code the mixed-code generator replaces the area between the markup. Because the markup is specially formatted comments, which mark the start and the end of the replacement area, the source file can be used for debugging. " Req="N" Order="Code Generator" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736394334791" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175737916991624" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738553974014" Value="1" Active="T" />
+    <link Parent="636175738643311819" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739256195615" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="636490227648735702" Title="Model-to-model" DataType="Boolean" Level="Feature" Description="It consists in providing an internal model representation and some mechanisms to manipulate it. It is usually implemented as an object-oriented framework, which may also provide some minimal infrastructure to organize the transformations." Req="N" Order="Model Transformation" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227649783476" Title="Model-to-text" DataType="Boolean" Level="Feature" Description="It consists in providing some visitor mechanism to traverse the internal representation of a model and write text to a text stream." Req="N" Order="Model Transformation" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227650966623" Title="Modular templates" DataType="Boolean" Level="Feature" Description="The ability to keep a group of templates in one module " Req="N" Order="Template Generator " UpperLevel="Technical features" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227652400431" Title="Modularization (Multiple units)" DataType="Boolean" Level="Feature" Description="The concept of modularisation is used for reducing the complexity of a system. This system (e.g. business process, organisational structure, IT application) is deconstructed into more or less independent units (�modules�)." Req="N" Order="Technical Issue" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227654561469" Title="Multiple outputs  (Model-&gt;Code)" DataType="Boolean" Level="Feature" Description="Multiple outputs  (Model-&gt;Code)" Req="N" Order="Technical Issue" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227656726943" Title="Multiple Programming Language" DataType="Boolean" Level="Feature" Description="Support of different programming languages" Req="N" Order="Template Generator " UpperLevel="Technical features" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227658011558" Title="Never compromise quality" DataType="Boolean" Level="Feature" Description="In Atern, the level of quality to be delivered should be agreed at the start. All work should be aimed at achieving that level of quality." Req="N" Order="Agile Methodology (Development)" UpperLevel="Dynamic Systems Development Method (DSDM)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227659420322" Title="Nice syntax" DataType="Boolean" Level="Feature" Description="Better readability of the template text" Req="N" Order="Template Generator " UpperLevel="Technical features" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227660548323" Title="Object oriented templates" DataType="Boolean" Level="Feature" Description="Polymorphism, inheritance and �this� reference support" Req="N" Order="Template Generator " UpperLevel="Technical features" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227661831722" Title="On-Site Customer" DataType="Boolean" Level="Feature" Description="A central customer contact must always be accessible in order to clarify requirements and questions directly." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227663623466" Title="Operational" DataType="Boolean" Level="Feature" Description="It is similar to the direct manipulation approach, but offers more dedicated support for model transformation. Typically, the meta-modeling formalism is extended through a dedicated language in order to facilitate computations. An example would be to extend a query language such as the Object Constraint Language (OCL) with imperative constructs." Req="N" Order="Model Transformation" UpperLevel="Model-to-model" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227664851682" Title="Pair Programming" DataType="Boolean" Level="Feature" Description="There are always two developers sitting in front of a computer in order to increase the quality and transfer the knowledge better." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227666755655" Title="Partial Generation" DataType="Boolean" Level="Feature" Description="partial code generation provides only a partial solution. " Req="N" Order="Technical Issue" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227669277566" Title="Partial-class generator" DataType="Boolean" Level="Feature" Description="Its input is the definition file and template files. By analyzing the definition file, the template is filled and the output is produced. The output of the generator will depend on the variable information in the definition file. The partial-class generator is used for generating base structures or base classes which afterwards are manually updated with final functionality. " Req="N" Order="Code Generator" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736394334791" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175737916991624" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738553974014" Value="1" Active="T" />
+    <link Parent="636175738643311819" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739256195615" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="636490227672359570" Title="Personal safety" DataType="Boolean" Level="Feature" Description="This has got to do with the issue of free speaking within a group of people." Req="N" Order="Agile Methodology (Development)" UpperLevel="Scrum Crystal" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227674159364" Title="Planning Game" DataType="Boolean" Level="Feature" Description="Projects, in accordance with XP, run iteratively (repeatedly) and incrementally (gradually build on each other). The contents of the next step are planned before each iteration. All project members (incl. the customer) participate." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227676119577" Title="Powerful expression language" DataType="Boolean" Level="Feature" Description="The easiest way of accessing model elements " Req="N" Order="Template Generator " UpperLevel="Technical features" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227677583453" Title="Refactoring" DataType="Boolean" Level="Feature" Description="As soon as it becomes necessary to alter the structure of the system, it should be implemented." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227679503571" Title="Reflective improvement" DataType="Boolean" Level="Feature" Description="Reflective improvement involves developers taking a break from regular development and trying to find ways to better their processes.�" Req="N" Order="Agile Methodology (Development)" UpperLevel="Scrum Crystal" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227680857634" Title="Regular Builds" DataType="Boolean" Level="Feature" Description="At regular intervals all the source code for the features completed is taken is taken, and the libraries and components on which it depends and the complete system is build. " Req="N" Order="Agile Methodology (Development)" UpperLevel="Feature Driven Development (FDD)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227682772258" Title="Relational" DataType="Boolean" Level="Feature" Description="This category groups declarative approaches in which the main concept is mathematical relations. In general, relational approaches can be seen as a form of constraint solving." Req="N" Order="Model Transformation" UpperLevel="Model-to-model" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227684166141" Title="Scrum Crystal" DataType="Boolean" Level="Feature" Description="Crystal Methods are a family of software development methodologies developed by Alistair Cockburn from his study and interviews of teams. The methods are color-coded to signify the risk to human life. For example, projects that may involve risk to human life will use Crystal Sapphire while projects that do not have such risks will use Crystal Clear. Crystal focuses on six primary aspects: people, interaction, community, communication, skills, and talents. Process is considered secondary. There are also seven common properties in Crystal that indicate higher possibility of success and they include frequent delivery, reflective improvement, osmotic communication, and easy access to expert users. The methods are very flexible and avoid rigid processes because of its human-powered or people-centric focus. Alistair Cockburn is also one of the original signatories of the Agile Manifesto." Req="N" Order="Agile Methodology (Development)" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227685851993" Title="Separation of frontend and backend technologies" DataType="Boolean" Level="Feature" Description="Separation of frontend and backend technologies (e.g. JS and C#)" Req="N" Order="Technical Issue" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736394334791" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175737916991624" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738643311819" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227688245813" Title="Short Releases" DataType="Boolean" Level="Feature" Description="New deliveries should be made at short intervals. Consequently, customers receive the required functions quicker and can therefore give feedback on the development quicker." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227689968490" Title="Simple Design" DataType="Boolean" Level="Feature" Description="The system should be designed as simply as possible so that it is easier to understand, modify and test." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227691703533" Title="Static type checking &amp; IDE support" DataType="Boolean" Level="Feature" Description="The ability to get error messages while writing the code " Req="N" Order="Template Generator " UpperLevel="Technical features" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227693081788" Title="Structure-driven" DataType="Boolean" Level="Feature" Description="Approaches in this category have two distinct phases: the first phase is concerned with creating the hierarchical structure of the target model. The second phase sets the attributes and references in the target." Req="N" Order="Model Transformation" UpperLevel="Model-to-model" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227694500550" Title="Sustainable Pace" DataType="Boolean" Level="Feature" Description="XP builds on the creativity of the individual project members. This creativity cannot be achieved if the project team constantly works overtime. Overtime is to be avoided." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227696551100" Title="Technical environment with automated tests, configuration management, and frequent integration" DataType="Boolean" Level="Feature" Description="The idea behind this is that there should be continuous integration and testing so that if any changes are made, then errors, breakages, etc can be spotted." Req="N" Order="Agile Methodology (Development)" UpperLevel="Scrum Crystal" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227698145350" Title="Technical features" DataType="Boolean" Level="Feature" Description="Templage generator technical features" Req="N" Order="Template Generator " UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227699482460" Title="Techniques" DataType="Boolean" Level="Feature" Description="Templage generator techniques" Req="N" Order="Template Generator " UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227700590423" Title="Template AOP" DataType="Boolean" Level="Feature" Description="The ability to define some architecture-specific code fragments inside the template" Req="N" Order="Template Generator " UpperLevel="Technical features" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227701929297" Title="Templates and filtering" DataType="Boolean" Level="Feature" Description="It defines that generalized source code fragments are represented as textual templates. During code generation process, the variables of these templates are associated with the system model. " Req="N" Order="Template Generator " UpperLevel="Techniques" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227703373156" Title="Templates and meta-model" DataType="Boolean" Level="Feature" Description="This technique is very similar to the previous one, except the new meta-model of the system representation is being created before the template is executed in a user defined way. It means that templates are not dependent on the model syntax and could be written in any programming language. " Req="N" Order="Template Generator " UpperLevel="Techniques" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227704942316" Title="Testing" DataType="Boolean" Level="Feature" Description="All developments must be tested." Req="N" Order="Agile Methodology (Development)" UpperLevel="Extreme Programming (XP)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227707021023" Title="Text-to-model" DataType="Boolean" Level="Feature" Description="The target of this transformation is just strings. More precisely, model-to-text approaches usually generate both code and non-code artifacts such as documents." Req="N" Order="Model Transformation" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227708406504" Title="Tier or layer generator" DataType="Boolean" Level="Feature" Description="It  is similar to partial-class generator, except it takes the responsibility to completely generate one tier of an n-tier application. This means, that the generated code has enough functionality for the working tier or layer, and not just base classes. Tier or layer generator can be positioned as a Model Driven generator, where the UML model is an input and one or more tiers of the system is an output. " Req="N" Order="Code Generator" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736394334791" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175737916991624" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738553974014" Value="1" Active="T" />
+    <link Parent="636175738643311819" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739256195615" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="636490227711740869" Title="Visibility of progress and results" DataType="Boolean" Level="Feature" Description="Progress reporting should be carried out on a regular basis to ensure that managers can steer the project in the right direction." Req="N" Order="Agile Methodology (Development)" UpperLevel="Feature Driven Development (FDD)" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736161613182" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="636490227713600793" Title="Visitor-based" DataType="Boolean" Level="Feature" Description="In this approach a template is provided that usually consists of the target text containing splices of meta-code to access information from the source and to perform code selection and iterative expansion." Req="N" Order="Model Transformation" UpperLevel="Model-to-text" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736481915032" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="636490227863719538" Title="V1" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636490227590123639" Value="1" Active="T" />
+    <link Parent="636490227594408416" Value="1" Active="T" />
+    <link Parent="636490227598614782" Value="1" Active="T" />
+    <link Parent="636490227605750794" Value="1" Active="T" />
+    <link Parent="636490227607245759" Value="1" Active="T" />
+    <link Parent="636490227614412728" Value="1" Active="T" />
+    <link Parent="636490227617014800" Value="1" Active="T" />
+    <link Parent="636490227620594754" Value="1" Active="T" />
+    <link Parent="636490227622510258" Value="1" Active="T" />
+    <link Parent="636490227629674592" Value="1" Active="T" />
+    <link Parent="636490227648735702" Value="1" Active="T" />
+    <link Parent="636490227654561469" Value="1" Active="T" />
+    <link Parent="636490227661831722" Value="1" Active="T" />
+    <link Parent="636490227664851682" Value="1" Active="T" />
+    <link Parent="636490227680857634" Value="1" Active="T" />
+    <link Parent="636490227696551100" Value="1" Active="T" />
+    <link Parent="636490227698145350" Value="1" Active="T" />
+    <link Parent="636490227699482460" Value="1" Active="T" />
+    <link Parent="636490227704942316" Value="1" Active="T" />
+    <link Parent="636490227708406504" Value="1" Active="T" />
+    <link Parent="636490227713600793" Value="1" Active="T" />
+  </node>
+  <node ID="636490227863819616" Title="V2" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636490227588875419" Value="1" Active="T" />
+    <link Parent="636490227590123639" Value="1" Active="T" />
+    <link Parent="636490227594408416" Value="1" Active="T" />
+    <link Parent="636490227598614782" Value="1" Active="T" />
+    <link Parent="636490227605750794" Value="1" Active="T" />
+    <link Parent="636490227607245759" Value="1" Active="T" />
+    <link Parent="636490227614412728" Value="1" Active="T" />
+    <link Parent="636490227617014800" Value="1" Active="T" />
+    <link Parent="636490227620594754" Value="1" Active="T" />
+    <link Parent="636490227622510258" Value="1" Active="T" />
+    <link Parent="636490227629674592" Value="1" Active="T" />
+    <link Parent="636490227648735702" Value="1" Active="T" />
+    <link Parent="636490227649783476" Value="1" Active="T" />
+    <link Parent="636490227652400431" Value="1" Active="T" />
+    <link Parent="636490227654561469" Value="1" Active="T" />
+    <link Parent="636490227661831722" Value="1" Active="T" />
+    <link Parent="636490227664851682" Value="1" Active="T" />
+    <link Parent="636490227680857634" Value="1" Active="T" />
+    <link Parent="636490227684166141" Value="1" Active="T" />
+    <link Parent="636490227685851993" Value="1" Active="T" />
+    <link Parent="636490227696551100" Value="1" Active="T" />
+    <link Parent="636490227698145350" Value="1" Active="T" />
+    <link Parent="636490227699482460" Value="1" Active="T" />
+    <link Parent="636490227704942316" Value="1" Active="T" />
+    <link Parent="636490227708406504" Value="1" Active="T" />
+    <link Parent="636490227713600793" Value="1" Active="T" />
+  </node>
+  <node ID="636490227863915265" Title="V3" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636490227590123639" Value="1" Active="T" />
+    <link Parent="636490227598614782" Value="1" Active="T" />
+    <link Parent="636490227605750794" Value="1" Active="T" />
+    <link Parent="636490227607245759" Value="1" Active="T" />
+    <link Parent="636490227614412728" Value="1" Active="T" />
+    <link Parent="636490227615520677" Value="1" Active="T" />
+    <link Parent="636490227617014800" Value="1" Active="T" />
+    <link Parent="636490227620594754" Value="1" Active="T" />
+    <link Parent="636490227622510258" Value="1" Active="T" />
+    <link Parent="636490227629674592" Value="1" Active="T" />
+    <link Parent="636490227633675803" Value="1" Active="T" />
+    <link Parent="636490227642299897" Value="1" Active="T" />
+    <link Parent="636490227648735702" Value="1" Active="T" />
+    <link Parent="636490227649783476" Value="1" Active="T" />
+    <link Parent="636490227650966623" Value="1" Active="T" />
+    <link Parent="636490227652400431" Value="1" Active="T" />
+    <link Parent="636490227654561469" Value="1" Active="T" />
+    <link Parent="636490227656726943" Value="1" Active="T" />
+    <link Parent="636490227661831722" Value="1" Active="T" />
+    <link Parent="636490227664851682" Value="1" Active="T" />
+    <link Parent="636490227676119577" Value="1" Active="T" />
+    <link Parent="636490227680857634" Value="1" Active="T" />
+    <link Parent="636490227684166141" Value="1" Active="T" />
+    <link Parent="636490227685851993" Value="1" Active="T" />
+    <link Parent="636490227696551100" Value="1" Active="T" />
+    <link Parent="636490227698145350" Value="1" Active="T" />
+    <link Parent="636490227699482460" Value="1" Active="T" />
+    <link Parent="636490227703373156" Value="1" Active="T" />
+    <link Parent="636490227704942316" Value="1" Active="T" />
+    <link Parent="636490227708406504" Value="1" Active="T" />
+    <link Parent="636490227713600793" Value="1" Active="T" />
+  </node>
+  <node ID="636490227864015135" Title="V4.a" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636490227588875419" Value="1" Active="T" />
+    <link Parent="636490227590123639" Value="1" Active="T" />
+    <link Parent="636490227591707853" Value="1" Active="T" />
+    <link Parent="636490227598614782" Value="1" Active="T" />
+    <link Parent="636490227599938748" Value="1" Active="T" />
+    <link Parent="636490227601295209" Value="1" Active="T" />
+    <link Parent="636490227602819041" Value="1" Active="T" />
+    <link Parent="636490227604199554" Value="1" Active="T" />
+    <link Parent="636490227605750794" Value="1" Active="T" />
+    <link Parent="636490227607245759" Value="1" Active="T" />
+    <link Parent="636490227608824963" Value="1" Active="T" />
+    <link Parent="636490227609950487" Value="1" Active="T" />
+    <link Parent="636490227611394324" Value="1" Active="T" />
+    <link Parent="636490227612828488" Value="1" Active="T" />
+    <link Parent="636490227614412728" Value="1" Active="T" />
+    <link Parent="636490227615520677" Value="1" Active="T" />
+    <link Parent="636490227617014800" Value="1" Active="T" />
+    <link Parent="636490227618499152" Value="1" Active="T" />
+    <link Parent="636490227620594754" Value="1" Active="T" />
+    <link Parent="636490227622510258" Value="1" Active="T" />
+    <link Parent="636490227624075945" Value="1" Active="T" />
+    <link Parent="636490227625735369" Value="1" Active="T" />
+    <link Parent="636490227627114055" Value="1" Active="T" />
+    <link Parent="636490227629674592" Value="1" Active="T" />
+    <link Parent="636490227633675803" Value="1" Active="T" />
+    <link Parent="636490227639522223" Value="1" Active="T" />
+    <link Parent="636490227642299897" Value="1" Active="T" />
+    <link Parent="636490227643623145" Value="1" Active="T" />
+    <link Parent="636490227648735702" Value="1" Active="T" />
+    <link Parent="636490227649783476" Value="1" Active="T" />
+    <link Parent="636490227650966623" Value="1" Active="T" />
+    <link Parent="636490227652400431" Value="1" Active="T" />
+    <link Parent="636490227654561469" Value="1" Active="T" />
+    <link Parent="636490227656726943" Value="1" Active="T" />
+    <link Parent="636490227658011558" Value="1" Active="T" />
+    <link Parent="636490227661831722" Value="1" Active="T" />
+    <link Parent="636490227664851682" Value="1" Active="T" />
+    <link Parent="636490227666755655" Value="1" Active="T" />
+    <link Parent="636490227672359570" Value="1" Active="T" />
+    <link Parent="636490227674159364" Value="1" Active="T" />
+    <link Parent="636490227676119577" Value="1" Active="T" />
+    <link Parent="636490227677583453" Value="1" Active="T" />
+    <link Parent="636490227679503571" Value="1" Active="T" />
+    <link Parent="636490227680857634" Value="1" Active="T" />
+    <link Parent="636490227684166141" Value="1" Active="T" />
+    <link Parent="636490227685851993" Value="1" Active="T" />
+    <link Parent="636490227688245813" Value="1" Active="T" />
+    <link Parent="636490227689968490" Value="1" Active="T" />
+    <link Parent="636490227693081788" Value="1" Active="T" />
+    <link Parent="636490227694500550" Value="1" Active="T" />
+    <link Parent="636490227696551100" Value="1" Active="T" />
+    <link Parent="636490227698145350" Value="1" Active="T" />
+    <link Parent="636490227699482460" Value="1" Active="T" />
+    <link Parent="636490227703373156" Value="1" Active="T" />
+    <link Parent="636490227704942316" Value="1" Active="T" />
+    <link Parent="636490227707021023" Value="1" Active="T" />
+    <link Parent="636490227708406504" Value="1" Active="T" />
+    <link Parent="636490227711740869" Value="1" Active="T" />
+    <link Parent="636490227713600793" Value="1" Active="T" />
+  </node>
+  <node ID="636490227864110863" Title="V4.b" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636490227588875419" Value="1" Active="T" />
+    <link Parent="636490227590123639" Value="1" Active="T" />
+    <link Parent="636490227591707853" Value="1" Active="T" />
+    <link Parent="636490227598614782" Value="1" Active="T" />
+    <link Parent="636490227599938748" Value="1" Active="T" />
+    <link Parent="636490227601295209" Value="1" Active="T" />
+    <link Parent="636490227602819041" Value="1" Active="T" />
+    <link Parent="636490227604199554" Value="1" Active="T" />
+    <link Parent="636490227605750794" Value="1" Active="T" />
+    <link Parent="636490227607245759" Value="1" Active="T" />
+    <link Parent="636490227608824963" Value="1" Active="T" />
+    <link Parent="636490227609950487" Value="1" Active="T" />
+    <link Parent="636490227611394324" Value="1" Active="T" />
+    <link Parent="636490227612828488" Value="1" Active="T" />
+    <link Parent="636490227614412728" Value="1" Active="T" />
+    <link Parent="636490227615520677" Value="1" Active="T" />
+    <link Parent="636490227617014800" Value="1" Active="T" />
+    <link Parent="636490227620594754" Value="1" Active="T" />
+    <link Parent="636490227622510258" Value="1" Active="T" />
+    <link Parent="636490227627114055" Value="1" Active="T" />
+    <link Parent="636490227629674592" Value="1" Active="T" />
+    <link Parent="636490227633675803" Value="1" Active="T" />
+    <link Parent="636490227639522223" Value="1" Active="T" />
+    <link Parent="636490227642299897" Value="1" Active="T" />
+    <link Parent="636490227643623145" Value="1" Active="T" />
+    <link Parent="636490227648735702" Value="1" Active="T" />
+    <link Parent="636490227649783476" Value="1" Active="T" />
+    <link Parent="636490227650966623" Value="1" Active="T" />
+    <link Parent="636490227652400431" Value="1" Active="T" />
+    <link Parent="636490227654561469" Value="1" Active="T" />
+    <link Parent="636490227656726943" Value="1" Active="T" />
+    <link Parent="636490227658011558" Value="1" Active="T" />
+    <link Parent="636490227661831722" Value="1" Active="T" />
+    <link Parent="636490227664851682" Value="1" Active="T" />
+    <link Parent="636490227672359570" Value="1" Active="T" />
+    <link Parent="636490227674159364" Value="1" Active="T" />
+    <link Parent="636490227676119577" Value="1" Active="T" />
+    <link Parent="636490227677583453" Value="1" Active="T" />
+    <link Parent="636490227679503571" Value="1" Active="T" />
+    <link Parent="636490227680857634" Value="1" Active="T" />
+    <link Parent="636490227684166141" Value="1" Active="T" />
+    <link Parent="636490227685851993" Value="1" Active="T" />
+    <link Parent="636490227688245813" Value="1" Active="T" />
+    <link Parent="636490227689968490" Value="1" Active="T" />
+    <link Parent="636490227693081788" Value="1" Active="T" />
+    <link Parent="636490227694500550" Value="1" Active="T" />
+    <link Parent="636490227696551100" Value="1" Active="T" />
+    <link Parent="636490227698145350" Value="1" Active="T" />
+    <link Parent="636490227699482460" Value="1" Active="T" />
+    <link Parent="636490227703373156" Value="1" Active="T" />
+    <link Parent="636490227704942316" Value="1" Active="T" />
+    <link Parent="636490227707021023" Value="1" Active="T" />
+    <link Parent="636490227708406504" Value="1" Active="T" />
+    <link Parent="636490227711740869" Value="1" Active="T" />
+    <link Parent="636490227713600793" Value="1" Active="T" />
+  </node>
+  <node ID="636490227864210670" Title="V4.c" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636490227588875419" Value="1" Active="T" />
+    <link Parent="636490227590123639" Value="1" Active="T" />
+    <link Parent="636490227591707853" Value="1" Active="T" />
+    <link Parent="636490227598614782" Value="1" Active="T" />
+    <link Parent="636490227599938748" Value="1" Active="T" />
+    <link Parent="636490227601295209" Value="1" Active="T" />
+    <link Parent="636490227602819041" Value="1" Active="T" />
+    <link Parent="636490227604199554" Value="1" Active="T" />
+    <link Parent="636490227605750794" Value="1" Active="T" />
+    <link Parent="636490227607245759" Value="1" Active="T" />
+    <link Parent="636490227608824963" Value="1" Active="T" />
+    <link Parent="636490227609950487" Value="1" Active="T" />
+    <link Parent="636490227611394324" Value="1" Active="T" />
+    <link Parent="636490227612828488" Value="1" Active="T" />
+    <link Parent="636490227614412728" Value="1" Active="T" />
+    <link Parent="636490227615520677" Value="1" Active="T" />
+    <link Parent="636490227617014800" Value="1" Active="T" />
+    <link Parent="636490227618499152" Value="1" Active="T" />
+    <link Parent="636490227620594754" Value="1" Active="T" />
+    <link Parent="636490227622510258" Value="1" Active="T" />
+    <link Parent="636490227624075945" Value="1" Active="T" />
+    <link Parent="636490227625735369" Value="1" Active="T" />
+    <link Parent="636490227627114055" Value="1" Active="T" />
+    <link Parent="636490227629674592" Value="1" Active="T" />
+    <link Parent="636490227633675803" Value="1" Active="T" />
+    <link Parent="636490227639522223" Value="1" Active="T" />
+    <link Parent="636490227642299897" Value="1" Active="T" />
+    <link Parent="636490227643623145" Value="1" Active="T" />
+    <link Parent="636490227648735702" Value="1" Active="T" />
+    <link Parent="636490227649783476" Value="1" Active="T" />
+    <link Parent="636490227650966623" Value="1" Active="T" />
+    <link Parent="636490227652400431" Value="1" Active="T" />
+    <link Parent="636490227654561469" Value="1" Active="T" />
+    <link Parent="636490227656726943" Value="1" Active="T" />
+    <link Parent="636490227658011558" Value="1" Active="T" />
+    <link Parent="636490227661831722" Value="1" Active="T" />
+    <link Parent="636490227664851682" Value="1" Active="T" />
+    <link Parent="636490227666755655" Value="1" Active="T" />
+    <link Parent="636490227672359570" Value="1" Active="T" />
+    <link Parent="636490227674159364" Value="1" Active="T" />
+    <link Parent="636490227676119577" Value="1" Active="T" />
+    <link Parent="636490227677583453" Value="1" Active="T" />
+    <link Parent="636490227679503571" Value="1" Active="T" />
+    <link Parent="636490227680857634" Value="1" Active="T" />
+    <link Parent="636490227684166141" Value="1" Active="T" />
+    <link Parent="636490227688245813" Value="1" Active="T" />
+    <link Parent="636490227689968490" Value="1" Active="T" />
+    <link Parent="636490227693081788" Value="1" Active="T" />
+    <link Parent="636490227694500550" Value="1" Active="T" />
+    <link Parent="636490227696551100" Value="1" Active="T" />
+    <link Parent="636490227698145350" Value="1" Active="T" />
+    <link Parent="636490227699482460" Value="1" Active="T" />
+    <link Parent="636490227703373156" Value="1" Active="T" />
+    <link Parent="636490227704942316" Value="1" Active="T" />
+    <link Parent="636490227707021023" Value="1" Active="T" />
+    <link Parent="636490227708406504" Value="1" Active="T" />
+    <link Parent="636490227711740869" Value="1" Active="T" />
+    <link Parent="636490227713600793" Value="1" Active="T" />
+  </node>
+    <link Parent="636490227588875419" Value="" Active="T" />
+    <link Parent="636490227590123639" Value="" Active="T" />
+    <link Parent="636490227591707853" Value="" Active="T" />
+    <link Parent="636490227593201825" Value="" Active="T" />
+    <link Parent="636490227594408416" Value="" Active="T" />
+    <link Parent="636490227597411596" Value="" Active="T" />
+    <link Parent="636490227598614782" Value="" Active="T" />
+    <link Parent="636490227599938748" Value="" Active="T" />
+    <link Parent="636490227601295209" Value="" Active="T" />
+    <link Parent="636490227602819041" Value="" Active="T" />
+    <link Parent="636490227604199554" Value="" Active="T" />
+    <link Parent="636490227605750794" Value="" Active="T" />
+    <link Parent="636490227607245759" Value="" Active="T" />
+    <link Parent="636490227608824963" Value="" Active="T" />
+    <link Parent="636490227609950487" Value="" Active="T" />
+    <link Parent="636490227611394324" Value="" Active="T" />
+    <link Parent="636490227612828488" Value="" Active="T" />
+    <link Parent="636490227614412728" Value="" Active="T" />
+    <link Parent="636490227615520677" Value="" Active="T" />
+    <link Parent="636490227617014800" Value="" Active="T" />
+    <link Parent="636490227618499152" Value="" Active="T" />
+    <link Parent="636490227619627278" Value="" Active="T" />
+    <link Parent="636490227620594754" Value="" Active="T" />
+    <link Parent="636490227622510258" Value="" Active="T" />
+    <link Parent="636490227624075945" Value="" Active="T" />
+    <link Parent="636490227625735369" Value="" Active="T" />
+    <link Parent="636490227627114055" Value="" Active="T" />
+    <link Parent="636490227628681935" Value="" Active="T" />
+    <link Parent="636490227629674592" Value="" Active="T" />
+    <link Parent="636490227631138819" Value="" Active="T" />
+    <link Parent="636490227632417457" Value="" Active="T" />
+    <link Parent="636490227633675803" Value="" Active="T" />
+    <link Parent="636490227635039544" Value="" Active="T" />
+    <link Parent="636490227636338431" Value="" Active="T" />
+    <link Parent="636490227639522223" Value="" Active="T" />
+    <link Parent="636490227641056306" Value="" Active="T" />
+    <link Parent="636490227642299897" Value="" Active="T" />
+    <link Parent="636490227643623145" Value="" Active="T" />
+    <link Parent="636490227645474687" Value="" Active="T" />
+    <link Parent="636490227648735702" Value="" Active="T" />
+    <link Parent="636490227649783476" Value="" Active="T" />
+    <link Parent="636490227650966623" Value="" Active="T" />
+    <link Parent="636490227652400431" Value="" Active="T" />
+    <link Parent="636490227654561469" Value="" Active="T" />
+    <link Parent="636490227656726943" Value="" Active="T" />
+    <link Parent="636490227658011558" Value="" Active="T" />
+    <link Parent="636490227659420322" Value="" Active="T" />
+    <link Parent="636490227660548323" Value="" Active="T" />
+    <link Parent="636490227661831722" Value="" Active="T" />
+    <link Parent="636490227663623466" Value="" Active="T" />
+    <link Parent="636490227664851682" Value="" Active="T" />
+    <link Parent="636490227666755655" Value="" Active="T" />
+    <link Parent="636490227669277566" Value="" Active="T" />
+    <link Parent="636490227672359570" Value="" Active="T" />
+    <link Parent="636490227674159364" Value="" Active="T" />
+    <link Parent="636490227676119577" Value="" Active="T" />
+    <link Parent="636490227677583453" Value="" Active="T" />
+    <link Parent="636490227679503571" Value="" Active="T" />
+    <link Parent="636490227680857634" Value="" Active="T" />
+    <link Parent="636490227682772258" Value="" Active="T" />
+    <link Parent="636490227684166141" Value="" Active="T" />
+    <link Parent="636490227685851993" Value="" Active="T" />
+    <link Parent="636490227688245813" Value="" Active="T" />
+    <link Parent="636490227689968490" Value="" Active="T" />
+    <link Parent="636490227691703533" Value="" Active="T" />
+    <link Parent="636490227693081788" Value="" Active="T" />
+    <link Parent="636490227694500550" Value="" Active="T" />
+    <link Parent="636490227696551100" Value="" Active="T" />
+    <link Parent="636490227698145350" Value="" Active="T" />
+    <link Parent="636490227699482460" Value="" Active="T" />
+    <link Parent="636490227700590423" Value="" Active="T" />
+    <link Parent="636490227701929297" Value="" Active="T" />
+    <link Parent="636490227703373156" Value="" Active="T" />
+    <link Parent="636490227704942316" Value="" Active="T" />
+    <link Parent="636490227707021023" Value="" Active="T" />
+    <link Parent="636490227708406504" Value="" Active="T" />
+    <link Parent="636490227711740869" Value="" Active="T" />
+    <link Parent="636490227713600793" Value="" Active="T" />
+  </node>
+</DecisionTree>

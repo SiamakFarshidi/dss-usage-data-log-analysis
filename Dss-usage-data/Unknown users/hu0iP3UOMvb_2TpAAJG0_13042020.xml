@@ -1,0 +1,659 @@
+<DecisionTree>
+  <node ID="636170012124150646" Title="A decision model for an MCDM problem" DataType="Number" Level="Domain" Description="This is a decision for an MCDM problem that addresses..." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="1" Active="T" />
+  </node>
+  <node ID="636172113404921037" Title="Functional appropriateness" DataType="Number" Level="Subcharacteristic" Description="degree to which the functions facilitate the accomplishment of specified tasks and objectives" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636172114021430584" Value="0" Active="T" />
+  </node>
+  <node ID="636172113542981195" Title="Functional completeness" DataType="Number" Level="Subcharacteristic" Description="degree to which the set of functions covers all the specified tasks and user objectives" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636172114021430584" Value="0" Active="T" />
+  </node>
+  <node ID="636172113845473499" Title="Functional correctness" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system provides the correct results with the needed degree of precision" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636172114021430584" Value="0" Active="T" />
+  </node>
+  <node ID="636172114021430584" Title="Functional suitability" DataType="Number" Level="Characteristic" Description="degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175733974064382" Title="Reliability" DataType="Number" Level="Characteristic" Description="degree to which a system, product or component performs specified functions under specified conditions for a specified period" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734041153890" Title="Performance efficiency" DataType="Number" Level="Characteristic" Description="performance relative to the amount of resources used under stated conditions" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734327578276" Title="Usability" DataType="Number" Level="Characteristic" Description="degree to which a product or system can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734403841172" Title="Maintainability" DataType="Number" Level="Characteristic" Description="degree of effectiveness and efficiency with which a product or system can be modified by the intended maintainers" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734487269509" Title="Security" DataType="Number" Level="Characteristic" Description="degree to which a product or system protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorization" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734592929327" Title="Compatibility" DataType="Number" Level="Characteristic" Description="degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions, while sharing the same hardware or software environment" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175734894578832" Title="Portability" DataType="Number" Level="Characteristic" Description="degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware, software or other operational or usage environment to another" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175735004332057" Title="Supplier" DataType="Number" Level="Characteristic" Description="Description about anyone who provides goods or services to a company or individuals." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175735107466118" Title="Cost" DataType="Number" Level="Characteristic" Description="Denotes the amount of money that a company spends on the creation or production of goods or services." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175735187954601" Title="Product" DataType="Number" Level="Characteristic" Description="Description about any article or substance that is manufactured or refined for sale." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0" Active="T" />
+  </node>
+  <node ID="636175735333630105" Title="Maturity" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component meets needs for reliability under normal operation" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0" Active="T" />
+  </node>
+  <node ID="636175735459250881" Title="Availability" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component is operational and accessible when required for use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0" Active="T" />
+  </node>
+  <node ID="636175735554701922" Title="Fault tolerance" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component operates as intended despite the presence of hardware or software faults" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0" Active="T" />
+  </node>
+  <node ID="636175735636115741" Title="Recoverability" DataType="Number" Level="Subcharacteristic" Description="degree to which, in the event of an interruption or a failure, a product or system can recover the data directly affected and re-establish the desired state of the system" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0" Active="T" />
+  </node>
+  <node ID="636175735767246801" Title="Time behavior" DataType="Number" Level="Subcharacteristic" Description="degree to which the response and processing times and throughput rates of a product or system, when performing its functions, meet requirements" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734041153890" Value="0" Active="T" />
+  </node>
+  <node ID="636175735861147611" Title="Resource utilization" DataType="Number" Level="Subcharacteristic" Description="degree to which the amounts and types of resources used by a product or system, when performing its functions, meet requirements" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734041153890" Value="0" Active="T" />
+  </node>
+  <node ID="636175735947464498" Title="Capacity" DataType="Number" Level="Subcharacteristic" Description="degree to which the maximum limits of a product or system parameter meet requirements" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734041153890" Value="0" Active="T" />
+  </node>
+  <node ID="636175736089117960" Title="Appropriateness recognizability" DataType="Number" Level="Subcharacteristic" Description="degree to which users can recognize whether a product or system is appropriate for their needs" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736161613182" Title="Learnability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can be used by specified users to achieve specified goals of learning to use the product or system with effectiveness, efficiency, freedom from risk and satisfaction in a specified context of use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736238145875" Title="Operability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system has attributes that make it easy to operate and control" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736318525353" Title="User error protection" DataType="Number" Level="Subcharacteristic" Description="degree to which a system protects users against making errors" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736394334791" Title="User interface aesthetics" DataType="Number" Level="Subcharacteristic" Description="degree to which a user interface enables pleasing and satisfying interaction for the user" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736481915032" Title="Accessibility" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can be used by people with the widest range of characteristics and capabilities to achieve a specified goal in a specified context of use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736574348327" Title="Modularity" DataType="Number" Level="Subcharacteristic" Description="degree to which a system or computer program is composed of discrete components such that a change to one component has minimal impact on other components" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0" Active="T" />
+  </node>
+  <node ID="636175736658415155" Title="Reusability" DataType="Number" Level="Subcharacteristic" Description="degree to which an asset can be used in more than one system, or in building other assets" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0" Active="T" />
+  </node>
+  <node ID="636175736737414037" Title="Analyzability" DataType="Number" Level="Subcharacteristic" Description="degree of effectiveness and efficiency with which it is possible to assess the impact on a product or system of an intended change to one or more of its parts, or to diagnose a product for deficiencies or causes of failures, or to identify parts to be modified" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0" Active="T" />
+  </node>
+  <node ID="636175736819554476" Title="Modifiability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can be effectively and efficiently modified without introducing defects or degrading existing product quality" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0" Active="T" />
+  </node>
+  <node ID="636175736907514970" Title="Testability" DataType="Number" Level="Subcharacteristic" Description="degree of effectiveness and efficiency with which test criteria can be established for a system, product or component and tests can be performed to determine whether those criteria have been met" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0" Active="T" />
+  </node>
+  <node ID="636175737002264787" Title="Confidentiality" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system ensures that data are accessible only to those authorized to have access" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0" Active="T" />
+  </node>
+  <node ID="636175737100880744" Title="Integrity" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component prevents unauthorized access to, or modification of, computer programs or data" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0" Active="T" />
+  </node>
+  <node ID="636175737219451508" Title="Non-repudiation" DataType="Number" Level="Subcharacteristic" Description="degree to which actions or events can be proven to have taken place, so that the events or actions cannot be repudiated later" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0" Active="T" />
+  </node>
+  <node ID="636175737309877731" Title="Accountability" DataType="Number" Level="Subcharacteristic" Description="degree to which the actions of an entity can be traced uniquely to the entity" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0" Active="T" />
+  </node>
+  <node ID="636175737412953572" Title="Authenticity" DataType="Number" Level="Subcharacteristic" Description="degree to which the identity of a subject or resource can be proved to be the one claimed" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0" Active="T" />
+  </node>
+  <node ID="636175737493820858" Title="Co-existence" DataType="Number" Level="Subcharacteristic" Description="degree to which a product can perform its required functions efficiently while sharing a common environment and resources with other products, without detrimental impact on any other product" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734592929327" Value="0" Active="T" />
+  </node>
+  <node ID="636175737597991212" Title="Interoperability" DataType="Number" Level="Subcharacteristic" Description="degree to which two or more systems, products or components can exchange information and use the information that has been exchanged" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734592929327" Value="0" Active="T" />
+  </node>
+  <node ID="636175737748576312" Title="Adaptability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can effectively and efficiently be adapted for different or evolving hardware, software or other operational or usage environments" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734894578832" Value="0" Active="T" />
+  </node>
+  <node ID="636175737916991624" Title="Installability" DataType="Number" Level="Subcharacteristic" Description="degree of effectiveness and efficiency with which a product or system can be successfully installed and/or uninstalled in a specified environment" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734894578832" Value="0" Active="T" />
+  </node>
+  <node ID="636175738006728431" Title="Replaceability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product can replace another specified software product for the same purpose in the same environment" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734894578832" Value="0" Active="T" />
+  </node>
+  <node ID="636175738090012575" Title="Organizational structure" DataType="Number" Level="Subcharacteristic" Description="Description of the organizational structure of the supplier company." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0" Active="T" />
+  </node>
+  <node ID="636175738180802901" Title="Positioning and Strength" DataType="Number" Level="Subcharacteristic" Description="Description of the position of the supplier company in the market." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0" Active="T" />
+  </node>
+  <node ID="636175738270925673" Title="Reputation" DataType="Number" Level="Subcharacteristic" Description="Capability of the supplier to perform similar projects based on past experiences and certifications." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0" Active="T" />
+  </node>
+  <node ID="636175738364778874" Title="Services Offered" DataType="Number" Level="Subcharacteristic" Description="Description of the services offered by the supplier." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0" Active="T" />
+  </node>
+  <node ID="636175738447470566" Title="Support" DataType="Number" Level="Subcharacteristic" Description="Description of the support mechanisms offered by the supplier." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0" Active="T" />
+  </node>
+  <node ID="636175738553974014" Title="Licensing Schema" DataType="Number" Level="Subcharacteristic" Description="Description of the COTS component licensing options." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0" Active="T" />
+  </node>
+  <node ID="636175738643311819" Title="Licensing Costs" DataType="Number" Level="Subcharacteristic" Description="Detail of the costs for the different licensing options" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0" Active="T" />
+  </node>
+  <node ID="636175738734268804" Title="Platform Cost" DataType="Number" Level="Subcharacteristic" Description="Estimation of the cost for the required production platform" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0" Active="T" />
+  </node>
+  <node ID="636175738825494524" Title="Implementation Cost" DataType="Number" Level="Subcharacteristic" Description="Estimation of implementation costs based on similar past experiences." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0" Active="T" />
+  </node>
+  <node ID="636175738903715696" Title="Network Cost" DataType="Number" Level="Subcharacteristic" Description="Estimation of additional cost for network operation." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0" Active="T" />
+  </node>
+  <node ID="636175738988764788" Title="Stability" DataType="Number" Level="Subcharacteristic" Description="Attributes of the product that bear on the stability of the product." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0" Active="T" />
+  </node>
+  <node ID="636175739087691080" Title="Ownership" DataType="Number" Level="Subcharacteristic" Description="Attributes in relation to the intellectual property rights." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0" Active="T" />
+  </node>
+  <node ID="636175739165373293" Title="Deliverables" DataType="Number" Level="Subcharacteristic" Description="Detail of the out of the box and post implementation deliverables." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0" Active="T" />
+  </node>
+  <node ID="636175739256195615" Title="Parameterization / Customization" DataType="Number" Level="Subcharacteristic" Description="Attributes in relation to the initial effort required for the product to operate." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0" Active="T" />
+  </node>
+  <node ID="636175739358190687" Title="Guarantees" DataType="Number" Level="Subcharacteristic" Description="Detail of the guarantees provided over the product." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0" Active="T" />
+  </node>
+  <node ID="637224059494275117" Title="Utrecht centraal" DataType="Boolean" Level="Feature" Description="Utrecht centraal" Req="N" Order="Near by" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059494474581" Title="Zwolle centraal" DataType="Boolean" Level="Feature" Description="Zwolle centraal" Req="N" Order="Near by" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059495133624" Title="Amsterdam centraal" DataType="Boolean" Level="Feature" Description="Amsterdam centraal" Req="N" Order="Near by" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059495392910" Title="Rotterdam centraal" DataType="Boolean" Level="Feature" Description="Rotterdam centraal" Req="N" Order="Near by" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059495642238" Title="Less than 300 EUR" DataType="Boolean" Level="Feature" Description="Less than 300 EUR" Req="N" Order="Rental cost" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738734268804" Value="1" Active="T" />
+  </node>
+  <node ID="637224059495831728" Title="Less than 500 EUR" DataType="Boolean" Level="Feature" Description="Less than 500 EUR" Req="N" Order="Rental cost" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738734268804" Value="1" Active="T" />
+  </node>
+  <node ID="637224059496001280" Title="Less than 700 EUR" DataType="Boolean" Level="Feature" Description="Less than 700 EUR" Req="N" Order="Rental cost" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738734268804" Value="1" Active="T" />
+  </node>
+  <node ID="637224059496180805" Title="Less than 1000 EUR" DataType="Boolean" Level="Feature" Description="Less than 1000 EUR" Req="N" Order="Rental cost" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738734268804" Value="1" Active="T" />
+  </node>
+  <node ID="637224059496430296" Title="Less than 1200 EUR" DataType="Boolean" Level="Feature" Description="Less than 1200 EUR" Req="N" Order="Rental cost" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738734268804" Value="1" Active="T" />
+  </node>
+  <node ID="637224059496619626" Title="Less than 1500 EUR" DataType="Boolean" Level="Feature" Description="Less than 1500 EUR" Req="N" Order="Rental cost" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738734268804" Value="1" Active="T" />
+  </node>
+  <node ID="637224059496799152" Title="Less than 2000 EUR" DataType="Boolean" Level="Feature" Description="Less than 2000 EUR" Req="N" Order="Rental cost" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738734268804" Value="1" Active="T" />
+  </node>
+  <node ID="637224059496972523" Title="Suitable for students" DataType="Boolean" Level="Feature" Description="Suitable for students" Req="N" Order="Suitability" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059497221800" Title="Suitable only for one person" DataType="Boolean" Level="Feature" Description="Suitable only for one person" Req="N" Order="Suitability" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059497590809" Title="Suitable only for a couple" DataType="Boolean" Level="Feature" Description="Suitable only for a couple" Req="N" Order="Suitability" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059498059541" Title="Suitable only for a a family" DataType="Boolean" Level="Feature" Description="Suitable only for a a family" Req="N" Order="Suitability" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059498348763" Title="Room" DataType="Boolean" Level="Feature" Description="Room" Req="N" Order="Type of house" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+  </node>
+  <node ID="637224059498508356" Title="Studio" DataType="Boolean" Level="Feature" Description="Studio" Req="N" Order="Type of house" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+  </node>
+  <node ID="637224059498687871" Title="Apartment" DataType="Boolean" Level="Feature" Description="Apartment" Req="N" Order="Type of house" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+  </node>
+  <node ID="637224059498867386" Title="Flat" DataType="Boolean" Level="Feature" Description="Flat" Req="N" Order="Type of house" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+  </node>
+  <node ID="637224059499076853" Title="11 to 25 sq meters" DataType="Boolean" Level="Feature" Description="11 to 25 sq meters" Req="N" Order="Living space" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735947464498" Value="1" Active="T" />
+  </node>
+  <node ID="637224059499246384" Title="25 to 50 sq meters" DataType="Boolean" Level="Feature" Description="25 to 50 sq meters" Req="N" Order="Living space" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735947464498" Value="1" Active="T" />
+  </node>
+  <node ID="637224059499475760" Title="50 to 75 sq meters" DataType="Boolean" Level="Feature" Description="50 to 75 sq meters" Req="N" Order="Living space" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735947464498" Value="1" Active="T" />
+  </node>
+  <node ID="637224059499705147" Title="more than 75 sq meters" DataType="Boolean" Level="Feature" Description="more than 75 sq meters" Req="N" Order="Living space" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735947464498" Value="1" Active="T" />
+  </node>
+  <node ID="637224059499934540" Title="Less than 5 years" DataType="Boolean" Level="Feature" Description="Less than 5 years" Req="N" Order="Years of construction" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736394334791" Value="1" Active="T" />
+  </node>
+  <node ID="637224059500343437" Title="Less than 10 years" DataType="Boolean" Level="Feature" Description="Less than 10 years" Req="N" Order="Years of construction" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736394334791" Value="1" Active="T" />
+  </node>
+  <node ID="637224059500702475" Title="Less than 20 years" DataType="Boolean" Level="Feature" Description="Less than 20 years" Req="N" Order="Years of construction" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736394334791" Value="1" Active="T" />
+  </node>
+  <node ID="637224059501071505" Title="Less than 50 years" DataType="Boolean" Level="Feature" Description="Less than 50 years" Req="N" Order="Years of construction" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736394334791" Value="1" Active="T" />
+  </node>
+  <node ID="637224059501550213" Title="Separated bathroom" DataType="Boolean" Level="Feature" Description="Separated bathroom" Req="N" Order="Facilities" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059501729729" Title="Balcony" DataType="Boolean" Level="Feature" Description="Balcony" Req="N" Order="Facilities" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059501899280" Title="Garden" DataType="Boolean" Level="Feature" Description="Garden" Req="N" Order="Facilities" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059502087728" Title="Pet is allowed" DataType="Boolean" Level="Feature" Description="Pet is allowed" Req="N" Order="Facilities" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059502277202" Title="Has a parking" DataType="Boolean" Level="Feature" Description="Has a parking" Req="N" Order="Location Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+  </node>
+  <node ID="637224059502446756" Title="Near to city center" DataType="Boolean" Level="Feature" Description="Near to city center" Req="N" Order="Location Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175736481915032" Value="1" Active="T" />
+  </node>
+  <node ID="637224059502646236" Title="Near to a public bus station" DataType="Boolean" Level="Feature" Description="Near to a public bus station" Req="N" Order="Location Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175736481915032" Value="1" Active="T" />
+  </node>
+  <node ID="637224059502845679" Title="Near to a train station" DataType="Boolean" Level="Feature" Description="Near to a train station" Req="N" Order="Location Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175736481915032" Value="1" Active="T" />
+  </node>
+  <node ID="637224059503044031" Title="Near to a gym" DataType="Boolean" Level="Feature" Description="Near to a gym" Req="N" Order="Location Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175736481915032" Value="1" Active="T" />
+  </node>
+  <node ID="637224059503283396" Title="Near to a church" DataType="Boolean" Level="Feature" Description="Near to a church" Req="N" Order="Location Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175736481915032" Value="1" Active="T" />
+  </node>
+  <node ID="637224059503522758" Title="Near to a mosque" DataType="Boolean" Level="Feature" Description="Near to a mosque" Req="N" Order="Location Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175736481915032" Value="1" Active="T" />
+  </node>
+  <node ID="637224059503772092" Title="Near to a shopping center" DataType="Boolean" Level="Feature" Description="Near to a shopping center" Req="N" Order="Location Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175736481915032" Value="1" Active="T" />
+  </node>
+  <node ID="637224059503991510" Title="Near to a supermarket" DataType="Boolean" Level="Feature" Description="Near to a supermarket" Req="N" Order="Location Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175736481915032" Value="1" Active="T" />
+  </node>
+  <node ID="637224059601719350" Title="House 1" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494275117" Value="1" Active="T" />
+    <link Parent="637224059495642238" Value="1" Active="T" />
+    <link Parent="637224059496972523" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059498348763" Value="1" Active="T" />
+    <link Parent="637224059499076853" Value="1" Active="T" />
+    <link Parent="637224059499934540" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502446756" Value="1" Active="T" />
+    <link Parent="637224059503522758" Value="1" Active="T" />
+    <link Parent="637224059503772092" Value="1" Active="T" />
+    <link Parent="637224059503991510" Value="1" Active="T" />
+  </node>
+  <node ID="637224059601809105" Title="House 2" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494275117" Value="1" Active="T" />
+    <link Parent="637224059495831728" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059497590809" Value="1" Active="T" />
+    <link Parent="637224059498059541" Value="1" Active="T" />
+    <link Parent="637224059498348763" Value="1" Active="T" />
+    <link Parent="637224059499076853" Value="1" Active="T" />
+    <link Parent="637224059499934540" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059501899280" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502446756" Value="1" Active="T" />
+    <link Parent="637224059502646236" Value="1" Active="T" />
+    <link Parent="637224059502845679" Value="1" Active="T" />
+    <link Parent="637224059503044031" Value="1" Active="T" />
+    <link Parent="637224059503283396" Value="1" Active="T" />
+  </node>
+  <node ID="637224059601898850" Title="House 3" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494275117" Value="1" Active="T" />
+    <link Parent="637224059496001280" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059497590809" Value="1" Active="T" />
+    <link Parent="637224059498059541" Value="1" Active="T" />
+    <link Parent="637224059498348763" Value="1" Active="T" />
+    <link Parent="637224059499076853" Value="1" Active="T" />
+    <link Parent="637224059499934540" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502446756" Value="1" Active="T" />
+    <link Parent="637224059502845679" Value="1" Active="T" />
+  </node>
+  <node ID="637224059601988618" Title="House 4" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494275117" Value="1" Active="T" />
+    <link Parent="637224059496180805" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059498348763" Value="1" Active="T" />
+    <link Parent="637224059499246384" Value="1" Active="T" />
+    <link Parent="637224059499934540" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059503522758" Value="1" Active="T" />
+    <link Parent="637224059503772092" Value="1" Active="T" />
+  </node>
+  <node ID="637224059602108298" Title="House 5" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494474581" Value="1" Active="T" />
+    <link Parent="637224059496430296" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059498508356" Value="1" Active="T" />
+    <link Parent="637224059499475760" Value="1" Active="T" />
+    <link Parent="637224059499934540" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059501899280" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059502446756" Value="1" Active="T" />
+    <link Parent="637224059503283396" Value="1" Active="T" />
+    <link Parent="637224059503522758" Value="1" Active="T" />
+    <link Parent="637224059503991510" Value="1" Active="T" />
+  </node>
+  <node ID="637224059602237971" Title="House 6" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494474581" Value="1" Active="T" />
+    <link Parent="637224059496619626" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059498867386" Value="1" Active="T" />
+    <link Parent="637224059499705147" Value="1" Active="T" />
+    <link Parent="637224059500343437" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059501899280" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059502446756" Value="1" Active="T" />
+    <link Parent="637224059502646236" Value="1" Active="T" />
+  </node>
+  <node ID="637224059602327711" Title="House 7" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494474581" Value="1" Active="T" />
+    <link Parent="637224059496799152" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059497590809" Value="1" Active="T" />
+    <link Parent="637224059498687871" Value="1" Active="T" />
+    <link Parent="637224059499475760" Value="1" Active="T" />
+    <link Parent="637224059500343437" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059503044031" Value="1" Active="T" />
+    <link Parent="637224059503772092" Value="1" Active="T" />
+  </node>
+  <node ID="637224059602427456" Title="House 8" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494474581" Value="1" Active="T" />
+    <link Parent="637224059495642238" Value="1" Active="T" />
+    <link Parent="637224059497590809" Value="1" Active="T" />
+    <link Parent="637224059498059541" Value="1" Active="T" />
+    <link Parent="637224059498348763" Value="1" Active="T" />
+    <link Parent="637224059499246384" Value="1" Active="T" />
+    <link Parent="637224059500343437" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059502646236" Value="1" Active="T" />
+    <link Parent="637224059503522758" Value="1" Active="T" />
+    <link Parent="637224059503991510" Value="1" Active="T" />
+  </node>
+  <node ID="637224059602527187" Title="House 9" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494474581" Value="1" Active="T" />
+    <link Parent="637224059495831728" Value="1" Active="T" />
+    <link Parent="637224059496972523" Value="1" Active="T" />
+    <link Parent="637224059498687871" Value="1" Active="T" />
+    <link Parent="637224059499076853" Value="1" Active="T" />
+    <link Parent="637224059500343437" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059502446756" Value="1" Active="T" />
+    <link Parent="637224059502845679" Value="1" Active="T" />
+    <link Parent="637224059503283396" Value="1" Active="T" />
+  </node>
+  <node ID="637224059602616954" Title="House 10" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494474581" Value="1" Active="T" />
+    <link Parent="637224059496180805" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059498059541" Value="1" Active="T" />
+    <link Parent="637224059498508356" Value="1" Active="T" />
+    <link Parent="637224059499246384" Value="1" Active="T" />
+    <link Parent="637224059500343437" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059501899280" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059503522758" Value="1" Active="T" />
+    <link Parent="637224059503991510" Value="1" Active="T" />
+  </node>
+  <node ID="637224059602706760" Title="House 11" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495133624" Value="1" Active="T" />
+    <link Parent="637224059496180805" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059498059541" Value="1" Active="T" />
+    <link Parent="637224059498867386" Value="1" Active="T" />
+    <link Parent="637224059499475760" Value="1" Active="T" />
+    <link Parent="637224059500702475" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059503044031" Value="1" Active="T" />
+    <link Parent="637224059503283396" Value="1" Active="T" />
+    <link Parent="637224059503772092" Value="1" Active="T" />
+  </node>
+  <node ID="637224059602786473" Title="House 12" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495133624" Value="1" Active="T" />
+    <link Parent="637224059496430296" Value="1" Active="T" />
+    <link Parent="637224059496972523" Value="1" Active="T" />
+    <link Parent="637224059497590809" Value="1" Active="T" />
+    <link Parent="637224059498508356" Value="1" Active="T" />
+    <link Parent="637224059499705147" Value="1" Active="T" />
+    <link Parent="637224059500702475" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059502446756" Value="1" Active="T" />
+    <link Parent="637224059502646236" Value="1" Active="T" />
+    <link Parent="637224059503522758" Value="1" Active="T" />
+  </node>
+  <node ID="637224059602886210" Title="House 13" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495133624" Value="1" Active="T" />
+    <link Parent="637224059496619626" Value="1" Active="T" />
+    <link Parent="637224059497590809" Value="1" Active="T" />
+    <link Parent="637224059498508356" Value="1" Active="T" />
+    <link Parent="637224059499475760" Value="1" Active="T" />
+    <link Parent="637224059500702475" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059501899280" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059503044031" Value="1" Active="T" />
+    <link Parent="637224059503991510" Value="1" Active="T" />
+  </node>
+  <node ID="637224059602975981" Title="House 14" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495133624" Value="1" Active="T" />
+    <link Parent="637224059496619626" Value="1" Active="T" />
+    <link Parent="637224059496972523" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059497590809" Value="1" Active="T" />
+    <link Parent="637224059498508356" Value="1" Active="T" />
+    <link Parent="637224059499246384" Value="1" Active="T" />
+    <link Parent="637224059500702475" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059502087728" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059503522758" Value="1" Active="T" />
+  </node>
+  <node ID="637224059603106013" Title="House 15" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495133624" Value="1" Active="T" />
+    <link Parent="637224059496619626" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059498059541" Value="1" Active="T" />
+    <link Parent="637224059498687871" Value="1" Active="T" />
+    <link Parent="637224059499076853" Value="1" Active="T" />
+    <link Parent="637224059500702475" Value="1" Active="T" />
+    <link Parent="637224059501729729" Value="1" Active="T" />
+    <link Parent="637224059501899280" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059502845679" Value="1" Active="T" />
+    <link Parent="637224059503283396" Value="1" Active="T" />
+    <link Parent="637224059503772092" Value="1" Active="T" />
+  </node>
+  <node ID="637224059603215339" Title="House 16" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495133624" Value="1" Active="T" />
+    <link Parent="637224059496180805" Value="1" Active="T" />
+    <link Parent="637224059496972523" Value="1" Active="T" />
+    <link Parent="637224059497590809" Value="1" Active="T" />
+    <link Parent="637224059498867386" Value="1" Active="T" />
+    <link Parent="637224059499246384" Value="1" Active="T" />
+    <link Parent="637224059500702475" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059502446756" Value="1" Active="T" />
+    <link Parent="637224059503522758" Value="1" Active="T" />
+    <link Parent="637224059503991510" Value="1" Active="T" />
+  </node>
+  <node ID="637224059603285142" Title="House 17" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495133624" Value="1" Active="T" />
+    <link Parent="637224059496180805" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059498867386" Value="1" Active="T" />
+    <link Parent="637224059499475760" Value="1" Active="T" />
+    <link Parent="637224059501071505" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+  </node>
+  <node ID="637224059603524539" Title="House 18" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495392910" Value="1" Active="T" />
+    <link Parent="637224059495831728" Value="1" Active="T" />
+    <link Parent="637224059496972523" Value="1" Active="T" />
+    <link Parent="637224059497590809" Value="1" Active="T" />
+    <link Parent="637224059498059541" Value="1" Active="T" />
+    <link Parent="637224059498687871" Value="1" Active="T" />
+    <link Parent="637224059499705147" Value="1" Active="T" />
+    <link Parent="637224059501071505" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059501899280" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059502646236" Value="1" Active="T" />
+    <link Parent="637224059502845679" Value="1" Active="T" />
+    <link Parent="637224059503283396" Value="1" Active="T" />
+    <link Parent="637224059503522758" Value="1" Active="T" />
+    <link Parent="637224059503991510" Value="1" Active="T" />
+  </node>
+  <node ID="637224059603773860" Title="House 19" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495392910" Value="1" Active="T" />
+    <link Parent="637224059496430296" Value="1" Active="T" />
+    <link Parent="637224059498508356" Value="1" Active="T" />
+    <link Parent="637224059499475760" Value="1" Active="T" />
+    <link Parent="637224059501071505" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059503772092" Value="1" Active="T" />
+  </node>
+  <node ID="637224059603943374" Title="House 20" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495392910" Value="1" Active="T" />
+    <link Parent="637224059496430296" Value="1" Active="T" />
+    <link Parent="637224059496972523" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059497590809" Value="1" Active="T" />
+    <link Parent="637224059498059541" Value="1" Active="T" />
+    <link Parent="637224059498348763" Value="1" Active="T" />
+    <link Parent="637224059499246384" Value="1" Active="T" />
+    <link Parent="637224059501071505" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059502646236" Value="1" Active="T" />
+    <link Parent="637224059502845679" Value="1" Active="T" />
+    <link Parent="637224059503044031" Value="1" Active="T" />
+    <link Parent="637224059503522758" Value="1" Active="T" />
+  </node>
+  <node ID="637224059604053093" Title="House 21" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495392910" Value="1" Active="T" />
+    <link Parent="637224059496430296" Value="1" Active="T" />
+    <link Parent="637224059496972523" Value="1" Active="T" />
+    <link Parent="637224059498508356" Value="1" Active="T" />
+    <link Parent="637224059499076853" Value="1" Active="T" />
+    <link Parent="637224059501071505" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059503991510" Value="1" Active="T" />
+  </node>
+  <node ID="637224059604312402" Title="House 22" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495392910" Value="1" Active="T" />
+    <link Parent="637224059496180805" Value="1" Active="T" />
+    <link Parent="637224059496972523" Value="1" Active="T" />
+    <link Parent="637224059498687871" Value="1" Active="T" />
+    <link Parent="637224059499246384" Value="1" Active="T" />
+    <link Parent="637224059501071505" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059502277202" Value="1" Active="T" />
+    <link Parent="637224059502646236" Value="1" Active="T" />
+    <link Parent="637224059503283396" Value="1" Active="T" />
+    <link Parent="637224059503772092" Value="1" Active="T" />
+  </node>
+  <node ID="637224059604432168" Title="House 23" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494275117" Value="1" Active="T" />
+    <link Parent="637224059496001280" Value="1" Active="T" />
+    <link Parent="637224059496972523" Value="1" Active="T" />
+    <link Parent="637224059498867386" Value="1" Active="T" />
+    <link Parent="637224059499475760" Value="1" Active="T" />
+    <link Parent="637224059500702475" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059501899280" Value="1" Active="T" />
+    <link Parent="637224059502845679" Value="1" Active="T" />
+    <link Parent="637224059503522758" Value="1" Active="T" />
+    <link Parent="637224059503991510" Value="1" Active="T" />
+  </node>
+  <node ID="637224059604546464" Title="House 24" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059494474581" Value="1" Active="T" />
+    <link Parent="637224059496001280" Value="1" Active="T" />
+    <link Parent="637224059496972523" Value="1" Active="T" />
+    <link Parent="637224059498687871" Value="1" Active="T" />
+    <link Parent="637224059499705147" Value="1" Active="T" />
+    <link Parent="637224059500702475" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059503283396" Value="1" Active="T" />
+  </node>
+  <node ID="637224059604626297" Title="House 25" DataType="Description" Level="Alternative" Description="(----------New Alternative--------)" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637224059495133624" Value="1" Active="T" />
+    <link Parent="637224059495642238" Value="1" Active="T" />
+    <link Parent="637224059497221800" Value="1" Active="T" />
+    <link Parent="637224059497590809" Value="1" Active="T" />
+    <link Parent="637224059498059541" Value="1" Active="T" />
+    <link Parent="637224059498508356" Value="1" Active="T" />
+    <link Parent="637224059499475760" Value="1" Active="T" />
+    <link Parent="637224059500702475" Value="1" Active="T" />
+    <link Parent="637224059501550213" Value="1" Active="T" />
+    <link Parent="637224059501899280" Value="1" Active="T" />
+    <link Parent="637224059502646236" Value="1" Active="T" />
+    <link Parent="637224059503772092" Value="1" Active="T" />
+  </node>
+</DecisionTree>

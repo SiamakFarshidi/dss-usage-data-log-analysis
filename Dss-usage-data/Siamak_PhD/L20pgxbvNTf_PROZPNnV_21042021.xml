@@ -1,0 +1,2136 @@
+<DecisionTree>
+  <node ID="636170012124150646" Title="SecureSECO project" DataType="Number" Level="Domain" Description="" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="1" Active="T" />
+  </node>
+  <node ID="636172113404921037" Title="Functional appropriateness" DataType="Number" Level="Subcharacteristic" Description="degree to which the functions facilitate the accomplishment of specified tasks and objectives" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636172114021430584" Value="0.0831915128029933" Active="T" />
+  </node>
+  <node ID="636172113542981195" Title="Functional completeness" DataType="Number" Level="Subcharacteristic" Description="degree to which the set of functions covers all the specified tasks and user objectives" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636172114021430584" Value="0.0653735809034834" Active="T" />
+  </node>
+  <node ID="636172113845473499" Title="Functional correctness" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system provides the correct results with the needed degree of precision" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636172114021430584" Value="0.0670685666111218" Active="T" />
+  </node>
+  <node ID="636172114021430584" Title="Functional suitability" DataType="Number" Level="Characteristic" Description="degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0.2156336603176" Active="T" />
+  </node>
+  <node ID="636175733974064382" Title="Reliability" DataType="Number" Level="Characteristic" Description="degree to which a system, product or component performs specified functions under specified conditions for a specified period" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0.0967102345254867" Active="T" />
+  </node>
+  <node ID="636175734041153890" Title="Performance efficiency" DataType="Number" Level="Characteristic" Description="performance relative to the amount of resources used under stated conditions" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0.0365176599350175" Active="T" />
+  </node>
+  <node ID="636175734327578276" Title="Usability" DataType="Number" Level="Characteristic" Description="degree to which a product or system can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0.114521305768561" Active="T" />
+  </node>
+  <node ID="636175734403841172" Title="Maintainability" DataType="Number" Level="Characteristic" Description="degree of effectiveness and efficiency with which a product or system can be modified by the intended maintainers" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0.0890073316203216" Active="T" />
+  </node>
+  <node ID="636175734487269509" Title="Security" DataType="Number" Level="Characteristic" Description="degree to which a product or system protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorization" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0.0103071273745438" Active="T" />
+  </node>
+  <node ID="636175734592929327" Title="Compatibility" DataType="Number" Level="Characteristic" Description="degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions, while sharing the same hardware or software environment" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0.084783588664097" Active="T" />
+  </node>
+  <node ID="636175734894578832" Title="Portability" DataType="Number" Level="Characteristic" Description="degree of effectiveness and efficiency with which a system, product or component can be transferred from one hardware, software or other operational or usage environment to another" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0.0517725313037628" Active="T" />
+  </node>
+  <node ID="636175735004332057" Title="Supplier" DataType="Number" Level="Characteristic" Description="Description about anyone who provides goods or services to a company or individuals." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0.174017321946796" Active="T" />
+  </node>
+  <node ID="636175735107466118" Title="Cost" DataType="Number" Level="Characteristic" Description="Denotes the amount of money that a company spends on the creation or production of goods or services." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0.0534469350420942" Active="T" />
+  </node>
+  <node ID="636175735187954601" Title="Product" DataType="Number" Level="Characteristic" Description="Description about any article or substance that is manufactured or refined for sale." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636170012124150646" Value="0.0732823035017194" Active="T" />
+  </node>
+  <node ID="636175735333630105" Title="Maturity" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component meets needs for reliability under normal operation" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0.0169704390456907" Active="T" />
+  </node>
+  <node ID="636175735459250881" Title="Availability" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component is operational and accessible when required for use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0.0169772997021263" Active="T" />
+  </node>
+  <node ID="636175735554701922" Title="Fault tolerance" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component operates as intended despite the presence of hardware or software faults" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0.0474870424396168" Active="T" />
+  </node>
+  <node ID="636175735636115741" Title="Recoverability" DataType="Number" Level="Subcharacteristic" Description="degree to which, in the event of an interruption or a failure, a product or system can recover the data directly affected and re-establish the desired state of the system" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175733974064382" Value="0.0152754533380523" Active="T" />
+  </node>
+  <node ID="636175735767246801" Title="Time behavior" DataType="Number" Level="Subcharacteristic" Description="degree to which the response and processing times and throughput rates of a product or system, when performing its functions, meet requirements" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734041153890" Value="0.0331002458939978" Active="T" />
+  </node>
+  <node ID="636175735861147611" Title="Resource utilization" DataType="Number" Level="Subcharacteristic" Description="degree to which the amounts and types of resources used by a product or system, when performing its functions, meet requirements" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734041153890" Value="0.00172242833338108" Active="T" />
+  </node>
+  <node ID="636175735947464498" Title="Capacity" DataType="Number" Level="Subcharacteristic" Description="degree to which the maximum limits of a product or system parameter meet requirements" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734041153890" Value="0.00169498570763836" Active="T" />
+  </node>
+  <node ID="636175736089117960" Title="Appropriateness recognizability" DataType="Number" Level="Subcharacteristic" Description="degree to which users can recognize whether a product or system is appropriate for their needs" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0.0169498570763836" Active="T" />
+  </node>
+  <node ID="636175736161613182" Title="Learnability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can be used by specified users to achieve specified goals of learning to use the product or system with effectiveness, efficiency, freedom from risk and satisfaction in a specified context of use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736238145875" Title="Operability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system has attributes that make it easy to operate and control" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0.0636648738829737" Active="T" />
+  </node>
+  <node ID="636175736318525353" Title="User error protection" DataType="Number" Level="Subcharacteristic" Description="degree to which a system protects users against making errors" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0.0339065748092029" Active="T" />
+  </node>
+  <node ID="636175736394334791" Title="User interface aesthetics" DataType="Number" Level="Subcharacteristic" Description="degree to which a user interface enables pleasing and satisfying interaction for the user" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736481915032" Title="Accessibility" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can be used by people with the widest range of characteristics and capabilities to achieve a specified goal in a specified context of use" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734327578276" Value="0" Active="T" />
+  </node>
+  <node ID="636175736574348327" Title="Modularity" DataType="Number" Level="Subcharacteristic" Description="degree to which a system or computer program is composed of discrete components such that a change to one component has minimal impact on other components" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0.0169498570763836" Active="T" />
+  </node>
+  <node ID="636175736658415155" Title="Reusability" DataType="Number" Level="Subcharacteristic" Description="degree to which an asset can be used in more than one system, or in building other assets" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0.018644842784022" Active="T" />
+  </node>
+  <node ID="636175736737414037" Title="Analyzability" DataType="Number" Level="Subcharacteristic" Description="degree of effectiveness and efficiency with which it is possible to assess the impact on a product or system of an intended change to one or more of its parts, or to diagnose a product for deficiencies or causes of failures, or to identify parts to be modified" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0.0178179318995098" Active="T" />
+  </node>
+  <node ID="636175736819554476" Title="Modifiability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can be effectively and efficiently modified without introducing defects or degrading existing product quality" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0.018644842784022" Active="T" />
+  </node>
+  <node ID="636175736907514970" Title="Testability" DataType="Number" Level="Subcharacteristic" Description="degree of effectiveness and efficiency with which test criteria can be established for a system, product or component and tests can be performed to determine whether those criteria have been met" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734403841172" Value="0.0169498570763836" Active="T" />
+  </node>
+  <node ID="636175737002264787" Title="Confidentiality" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system ensures that data are accessible only to those authorized to have access" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0.00261108512581433" Active="T" />
+  </node>
+  <node ID="636175737100880744" Title="Integrity" DataType="Number" Level="Subcharacteristic" Description="degree to which a system, product or component prevents unauthorized access to, or modification of, computer programs or data" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0.00261108512581433" Active="T" />
+  </node>
+  <node ID="636175737219451508" Title="Non-repudiation" DataType="Number" Level="Subcharacteristic" Description="degree to which actions or events can be proven to have taken place, so that the events or actions cannot be repudiated later" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0.00169498570763836" Active="T" />
+  </node>
+  <node ID="636175737309877731" Title="Accountability" DataType="Number" Level="Subcharacteristic" Description="degree to which the actions of an entity can be traced uniquely to the entity" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0.00169498570763836" Active="T" />
+  </node>
+  <node ID="636175737412953572" Title="Authenticity" DataType="Number" Level="Subcharacteristic" Description="degree to which the identity of a subject or resource can be proved to be the one claimed" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734487269509" Value="0.00169498570763836" Active="T" />
+  </node>
+  <node ID="636175737493820858" Title="Co-existence" DataType="Number" Level="Subcharacteristic" Description="degree to which a product can perform its required functions efficiently while sharing a common environment and resources with other products, without detrimental impact on any other product" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734592929327" Value="0.00169498570763836" Active="T" />
+  </node>
+  <node ID="636175737597991212" Title="Interoperability" DataType="Number" Level="Subcharacteristic" Description="degree to which two or more systems, products or components can exchange information and use the information that has been exchanged" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734592929327" Value="0.0830886029564581" Active="T" />
+  </node>
+  <node ID="636175737748576312" Title="Adaptability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product or system can effectively and efficiently be adapted for different or evolving hardware, software or other operational or usage environments" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734894578832" Value="0.0178247925559455" Active="T" />
+  </node>
+  <node ID="636175737916991624" Title="Installability" DataType="Number" Level="Subcharacteristic" Description="degree of effectiveness and efficiency with which a product or system can be successfully installed and/or uninstalled in a specified environment" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734894578832" Value="0.000874935479561896" Active="T" />
+  </node>
+  <node ID="636175738006728431" Title="Replaceability" DataType="Number" Level="Subcharacteristic" Description="degree to which a product can replace another specified software product for the same purpose in the same environment" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175734894578832" Value="0.0330728032682551" Active="T" />
+  </node>
+  <node ID="636175738090012575" Title="Organizational structure" DataType="Number" Level="Subcharacteristic" Description="Description of the organizational structure of the supplier company." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0.0347609283194578" Active="T" />
+  </node>
+  <node ID="636175738180802901" Title="Positioning and Strength" DataType="Number" Level="Subcharacteristic" Description="Description of the position of the supplier company in the market." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0.0339065748092029" Active="T" />
+  </node>
+  <node ID="636175738270925673" Title="Reputation" DataType="Number" Level="Subcharacteristic" Description="Capability of the supplier to perform similar projects based on past experiences and certifications." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0.0348226742273789" Active="T" />
+  </node>
+  <node ID="636175738364778874" Title="Services Offered" DataType="Number" Level="Subcharacteristic" Description="Description of the services offered by the supplier." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0.0517999739295052" Active="T" />
+  </node>
+  <node ID="636175738447470566" Title="Support" DataType="Number" Level="Subcharacteristic" Description="Description of the support mechanisms offered by the supplier." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735004332057" Value="0.0187271706612501" Active="T" />
+  </node>
+  <node ID="636175738553974014" Title="Licensing Schema" DataType="Number" Level="Subcharacteristic" Description="Description of the COTS component licensing options." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0" Active="T" />
+  </node>
+  <node ID="636175738643311819" Title="Licensing Costs" DataType="Number" Level="Subcharacteristic" Description="Detail of the costs for the different licensing options" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0.00170184636407404" Active="T" />
+  </node>
+  <node ID="636175738734268804" Title="Platform Cost" DataType="Number" Level="Subcharacteristic" Description="Estimation of the cost for the required production platform" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0.0186585640968933" Active="T" />
+  </node>
+  <node ID="636175738825494524" Title="Implementation Cost" DataType="Number" Level="Subcharacteristic" Description="Estimation of implementation costs based on similar past experiences." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0.0161298068483072" Active="T" />
+  </node>
+  <node ID="636175738903715696" Title="Network Cost" DataType="Number" Level="Subcharacteristic" Description="Estimation of additional cost for network operation." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735107466118" Value="0.0169567177328193" Active="T" />
+  </node>
+  <node ID="636175738988764788" Title="Stability" DataType="Number" Level="Subcharacteristic" Description="Attributes of the product that bear on the stability of the product." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0.0331276885197405" Active="T" />
+  </node>
+  <node ID="636175739087691080" Title="Ownership" DataType="Number" Level="Subcharacteristic" Description="Attributes in relation to the intellectual property rights." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0.0365519632171956" Active="T" />
+  </node>
+  <node ID="636175739165373293" Title="Deliverables" DataType="Number" Level="Subcharacteristic" Description="Detail of the out of the box and post implementation deliverables." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0.00177045292843083" Active="T" />
+  </node>
+  <node ID="636175739256195615" Title="Parameterization / Customization" DataType="Number" Level="Subcharacteristic" Description="Attributes in relation to the initial effort required for the product to operate." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0.000916099418175971" Active="T" />
+  </node>
+  <node ID="636175739358190687" Title="Guarantees" DataType="Number" Level="Subcharacteristic" Description="Detail of the guarantees provided over the product." Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="">
+    <link Parent="636175735187954601" Value="0.000916099418175971" Active="T" />
+  </node>
+  <node ID="637545984159588940" Title="Political decentralization?" DataType="Boolean" Level="Feature" Description="system is not controlled by a single individual or organization" Req="S" Order="Decentralization Types" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735459250881" Value="0.0314081549979132" Active="T" />
+    <link Parent="636175735554701922" Value="0.0314081549979132" Active="T" />
+    <link Parent="636175735636115741" Value="0.0314081549979132" Active="T" />
+    <link Parent="636175735767246801" Value="0.0314081549979132" Active="T" />
+    <link Parent="636175736238145875" Value="0.0314081549979132" Active="T" />
+    <link Parent="636175737597991212" Value="0.0314081549979132" Active="T" />
+    <link Parent="636175738006728431" Value="0.0314081549979132" Active="T" />
+    <link Parent="636175738825494524" Value="0.0314081549979132" Active="T" />
+    <link Parent="636175739087691080" Value="0.0314081549979132" Active="T" />
+  </node>
+  <node ID="637545984161224260" Title="Infrastructure decentralization" DataType="Boolean" Level="Feature" Description="system can tolerate if some parts (computers[comma] nodes[comma] etc) are broken" Req="M" Order="Decentralization Types" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="637545984162939518" Title="Direct DAO Governance" DataType="Boolean" Level="Feature" Description="Direct democracy or pure democracy is a form of democracy in which people decide on policy initiatives directly. (each person decides directly)" Req="S" Order="Governance" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738090012575" Value="0.01536783144222" Active="T" />
+    <link Parent="636175739087691080" Value="0.01536783144222" Active="T" />
+  </node>
+  <node ID="637545984163384778" Title="Representative DAO Governance" DataType="Boolean" Level="Feature" Description="Representative democracy is a form of democracy in which people vote for representatives who then vote on policy initiatives as opposed to a direct democracy[comma] a form of democracy in which people vote on policy initiatives directly." Req="C" Order="Governance" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738090012575" Value="0.00128084351246959" Active="T" />
+    <link Parent="636175739087691080" Value="0.00128084351246959" Active="T" />
+  </node>
+  <node ID="637545984163764666" Title="Liquid DAO Governance" DataType="Boolean" Level="Feature" Description="Liquid Democracy (LD) can be understood as a dynamic hybrid of the two established branches of democracy[comma] direct and representative. Liquid democracy combines many of the upsides of each while doing away with most of their weaknesses. With liquid democracy[comma] you have the option of delegating your vote to an expert that represents your views. Alternatively[comma] you can decide to vote on any given issue yourself. It enables the participants to freely lend and recover the decision power to people they trust to have most knowledge[comma] experience[comma] and interest making the best decisions." Req="N" Order="Governance" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738090012575" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="637545984164294758" Title="Quadratic voting" DataType="Boolean" Level="Feature" Description="Quadratic Voting is a method of collective decision-making in which a participant votes not just for or against an issue[comma] but also expresses how strongly they feel about it" Req="C" Order="Voting Mechanism" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="0.00132949259950712" Active="T" />
+    <link Parent="636175735554701922" Value="0.00132949259950712" Active="T" />
+    <link Parent="636175736318525353" Value="0.00132949259950712" Active="T" />
+    <link Parent="636175738988764788" Value="0.00132949259950712" Active="T" />
+  </node>
+  <node ID="637545984165064685" Title="Conviction voting" DataType="Boolean" Level="Feature" Description="Conviction Voting offers a novel decision making process that funds proposals based on the aggregated preference of community members[comma] expressed continuously" Req="N" Order="Voting Mechanism" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+  </node>
+  <node ID="637545984165754684" Title="Reputation-based voting" DataType="Boolean" Level="Feature" Description="reputation-based voting (RBV) approach investigates the trustworthiness of the grid resources through a reputation system[comma] and then takes a decision about the results." Req="S" Order="Voting Mechanism" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="0.0316783222132425" Active="T" />
+    <link Parent="636175735554701922" Value="0.0316783222132425" Active="T" />
+    <link Parent="636175736318525353" Value="0.0316783222132425" Active="T" />
+    <link Parent="636175738988764788" Value="0.0316783222132425" Active="T" />
+  </node>
+  <node ID="637545984166484717" Title="Token-weighted Voting" DataType="Boolean" Level="Feature" Description="Token-weighted voting is used to curate user-generated content[comma] and for blockchain governance. Morover[comma] it is used to decide on hard-forks and protocol upgrades." Req="N" Order="Voting Mechanism" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+  </node>
+  <node ID="637545984167184677" Title="Token-based voting" DataType="Boolean" Level="Feature" Description="In token-based voting[comma] one can buy tokens[comma] vote[comma] and sell the tokens[comma] which dramatically shifts incentives. Token-voting can even be automated  such that contracts auction their voting right for each proposal." Req="M" Order="Voting Mechanism" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+  </node>
+  <node ID="637545984167774677" Title="TCR Based Voting" DataType="Boolean" Level="Feature" Description="TCR (token curated registry) is an automated way to create lists of any kind where decisions (whether to include N or not) are made through voting that brings benefit or loss to voters." Req="N" Order="Voting Mechanism" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+  </node>
+  <node ID="637545984168564674" Title="Delegable Voting" DataType="Boolean" Level="Feature" Description="Voting by delegable is a form of direct democracy that allows the entire voting population to vote on each bill before parliament. Rather than voting directly on a bill[comma] you delegate your vote to a sitting member of parliament who casts your vote on your behalf. You can change your delegate as often as you like and be as active in the political process as you wish. Those who wish to be less involved can keep the same delegate indefinitely[comma] and their delegate will continue to cast votes on their behalf. This would ease the burden of voting as there would be no requirement to make everyone vote regularly and at the same time in order to achieve a parliament that represents the wishes of the people. Alternatively[comma] those who wish to become more involved can change their delegate as often as is necessary to ensure that their vote is cast as they desire. In this way the system effectively achieves direct democracy[comma] without the burden usually associated with direct democracy." Req="N" Order="Voting Mechanism" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+  </node>
+  <node ID="637545984169254701" Title="Lazy consensus" DataType="Boolean" Level="Feature" Description="Decentralized decision making which avoid voting where possible" Req="N" Order="Voting Mechanism" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+  </node>
+  <node ID="637545984170014673" Title="On-Chain Resources" DataType="Boolean" Level="Feature" Description="On-Chain Resources" Req="N" Order="Resource Management" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738643311819" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="637545984171844694" Title="Upgradeable contract" DataType="Boolean" Level="Feature" Description="The exclusive usage of on-chain resources allows a DAO to directly exert control and initiate action via a smart contract that may or may not be upgradeable." Req="S" Order="Resource Management" UpperLevel="On-Chain Resources" Criterion="None" Keywords="NULL">
+    <link Parent="636175735459250881" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175735767246801" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175735861147611" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175735947464498" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175736658415155" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175736819554476" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175737597991212" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175738364778874" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175738643311819" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175738734268804" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175739087691080" Value="0.0294709806827817" Active="T" />
+  </node>
+  <node ID="637545984173910555" Title="Off-Chain Resources" DataType="Boolean" Level="Feature" Description="Off-Chain Resources" Req="N" Order="Resource Management" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738643311819" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="637545984175880520" Title="Natural person" DataType="Boolean" Level="Feature" Description="When using off-chain assets (such as fiat currencies)[comma] a natural person or legal entity (in jargon �legal personhood�) must be assigned control over the respective assets." Req="N" Order="Resource Management" UpperLevel="Off-Chain Resources" Criterion="None" Keywords="NULL">
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738643311819" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="637545984177570505" Title="Legal Entity" DataType="Boolean" Level="Feature" Description="An entity (as a corporation or labor union) having under the law rights and responsibilities and especially the capacity to sue and be sued." Req="S" Order="Resource Management" UpperLevel="Off-Chain Resources" Criterion="None" Keywords="NULL">
+    <link Parent="636175735459250881" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175735767246801" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175735861147611" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175735947464498" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175736658415155" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175736819554476" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175737597991212" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175738364778874" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175738643311819" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175738734268804" Value="0.0294709806827817" Active="T" />
+    <link Parent="636175739087691080" Value="0.0294709806827817" Active="T" />
+  </node>
+  <node ID="637545984179300560" Title="Smart contracts" DataType="Boolean" Level="Feature" Description="A smart contract is an application or program that runs on a blockchain. Typically[comma] they work as a digital agreement that is enforced by a specific set of rules. These rules are predefined by computer code[comma] which is replicated and executed by all network nodes." Req="M" Order="Autonomy (Self-governance)" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+  </node>
+  <node ID="637545984180370533" Title="Arbitrary transactions" DataType="Boolean" Level="Feature" Description="Interact with any other contract on the same chain (or across chains via a bridge)" Req="S" Order="Autonomy (Self-governance)" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0623237080951023" Active="T" />
+    <link Parent="636172113845473499" Value="0.0623237080951023" Active="T" />
+    <link Parent="636172113404921037" Value="0.0623237080951023" Active="T" />
+    <link Parent="636175735554701922" Value="0.0623237080951023" Active="T" />
+    <link Parent="636175735767246801" Value="0.0623237080951023" Active="T" />
+    <link Parent="636175736238145875" Value="0.0623237080951023" Active="T" />
+    <link Parent="636175737597991212" Value="0.0623237080951023" Active="T" />
+  </node>
+  <node ID="637545984181610574" Title="Rage Quit" DataType="Boolean" Level="Feature" Description="It allows a user to liquidate some or all of their shares into ETH[comma] in the event they don�t affirmatively vote for a proposal. If they liquidate all of their shares[comma] they cease to be a member of the DAO." Req="N" Order="Autonomy (Self-governance)" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+  </node>
+  <node ID="637545984182820516" Title="Shared Resource" DataType="Boolean" Level="Feature" Description="A Shared Resource is a durable asset that can be used by many people. Shared resources allow you to create the asset once[comma] then charge your customers for its use." Req="N" Order="DAO Design Specification" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739256195615" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="637545984184859986" Title="Funds" DataType="Boolean" Level="Feature" Description="Token holders can become contractors by submitting proposals for funding of their project by using the DAO funds." Req="S" Order="DAO Design Specification" UpperLevel="Shared Resource" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0711712946106833" Active="T" />
+    <link Parent="636172113845473499" Value="0.0711712946106833" Active="T" />
+    <link Parent="636172113404921037" Value="0.0711712946106833" Active="T" />
+    <link Parent="636175736238145875" Value="0.0711712946106833" Active="T" />
+    <link Parent="636175737002264787" Value="0.0711712946106833" Active="T" />
+    <link Parent="636175737100880744" Value="0.0711712946106833" Active="T" />
+    <link Parent="636175738270925673" Value="0.0711712946106833" Active="T" />
+    <link Parent="636175738364778874" Value="0.0711712946106833" Active="T" />
+    <link Parent="636175738447470566" Value="0.0711712946106833" Active="T" />
+    <link Parent="636175738988764788" Value="0.0711712946106833" Active="T" />
+    <link Parent="636175739087691080" Value="0.0711712946106833" Active="T" />
+    <link Parent="636175739165373293" Value="0.0711712946106833" Active="T" />
+    <link Parent="636175739256195615" Value="0.0711712946106833" Active="T" />
+    <link Parent="636175739358190687" Value="0.0711712946106833" Active="T" />
+  </node>
+  <node ID="637545984187049594" Title="Physical Asset" DataType="Boolean" Level="Feature" Description="A physical asset is an item of economic[comma] commercial[comma] or exchange value that has a material existence. Physical assets are also known as tangible assets. For most businesses[comma] physical assets usually refer to properties[comma] equipment[comma] and inventory." Req="N" Order="DAO Design Specification" UpperLevel="Shared Resource" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739256195615" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="637545984189079560" Title="Registry" DataType="Boolean" Level="Feature" Description="Registry" Req="N" Order="DAO Design Specification" UpperLevel="Shared Resource" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739256195615" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="637545984191025997" Title="Intellectual Property" DataType="Boolean" Level="Feature" Description="Intellectual property (IP) is a category of property that includes intangible creations of the human intellect. There are many types of intellectual property[comma] and some countries recognize more than others. The most well-known types are copyrights[comma] patents[comma] trademarks[comma] and trade secrets." Req="C" Order="DAO Design Specification" UpperLevel="Shared Resource" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113845473499" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113404921037" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175736238145875" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737002264787" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737100880744" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738270925673" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738364778874" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738447470566" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738988764788" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739087691080" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739165373293" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739256195615" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739358190687" Value="0.00144728777063388" Active="T" />
+  </node>
+  <node ID="637545984192995956" Title="Proposals" DataType="Boolean" Level="Feature" Description="A funding proposal is used to request funds by providing a compelling case for the proposed project. The main difference is the focus on the goals and objectives of the project[comma] feeding into a set of measures for evaluation of project success." Req="N" Order="DAO Design Specification" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739256195615" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="637545984195176015" Title="Research &amp; Development" DataType="Boolean" Level="Feature" Description="Research and development (R&amp;D) includes activities that companies undertake to innovate and introduce new products and services. It is often the first stage in the development process." Req="C" Order="DAO Design Specification" UpperLevel="Proposals" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113845473499" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113404921037" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175736238145875" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737002264787" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737100880744" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738270925673" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738364778874" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738447470566" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738988764788" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739087691080" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739165373293" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739256195615" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739358190687" Value="0.00144728777063388" Active="T" />
+  </node>
+  <node ID="637545984197176008" Title="Service contracts" DataType="Boolean" Level="Feature" Description="Service Contracts are agreements between a customer or client and a person or company who will be providing services. For example[comma] a Service Contract might be used to define a work-agreement between a contractor and a homeowner. " Req="C" Order="DAO Design Specification" UpperLevel="Proposals" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113845473499" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113404921037" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175736238145875" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737002264787" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737100880744" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738270925673" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738364778874" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738447470566" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738988764788" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739087691080" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739165373293" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739256195615" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739358190687" Value="0.00144728777063388" Active="T" />
+  </node>
+  <node ID="637545984199185972" Title="Professional services" DataType="Boolean" Level="Feature" Description="Professional services to the DAO like coding[comma] sales[comma] marketing[comma] accounting etc" Req="C" Order="DAO Design Specification" UpperLevel="Proposals" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113845473499" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113404921037" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175736238145875" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737002264787" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737100880744" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738270925673" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738364778874" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738447470566" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738988764788" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739087691080" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739165373293" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739256195615" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739358190687" Value="0.00144728777063388" Active="T" />
+  </node>
+  <node ID="637545984201186358" Title="Content or registry curation" DataType="Boolean" Level="Feature" Description="It is an incentivized voting game that helps create trusted lists that are maintained by the very people that use them. Using the �Wisdom of the Crowds� principle[comma] users collectively vote (using tokens) to decide which submissions are valid and should be included in the list." Req="C" Order="DAO Design Specification" UpperLevel="Proposals" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113845473499" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113404921037" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175736238145875" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737002264787" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737100880744" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738270925673" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738364778874" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738447470566" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738988764788" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739087691080" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739165373293" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739256195615" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739358190687" Value="0.00144728777063388" Active="T" />
+  </node>
+  <node ID="637545984203375924" Title="Reputation" DataType="Boolean" Level="Feature" Description="Reputation requests for new members" Req="C" Order="DAO Design Specification" UpperLevel="Proposals" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113845473499" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113404921037" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175736238145875" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737002264787" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737100880744" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738270925673" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738364778874" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738447470566" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738988764788" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739087691080" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739165373293" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739256195615" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739358190687" Value="0.00144728777063388" Active="T" />
+  </node>
+  <node ID="637545984205411186" Title="Meetups" DataType="Boolean" Level="Feature" Description="Meetup is a service used to organize online groups that host in-person events for people with similar interests. " Req="C" Order="DAO Design Specification" UpperLevel="Proposals" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113845473499" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113404921037" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175736238145875" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737002264787" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737100880744" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738270925673" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738364778874" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738447470566" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738988764788" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739087691080" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739165373293" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739256195615" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739358190687" Value="0.00144728777063388" Active="T" />
+  </node>
+  <node ID="637545984207551188" Title="Reward-for-work proposals" DataType="Boolean" Level="Feature" Description="Reward-for-work proposals" Req="C" Order="DAO Design Specification" UpperLevel="Proposals" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113845473499" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113404921037" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175736238145875" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737002264787" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737100880744" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738270925673" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738364778874" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738447470566" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738988764788" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739087691080" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739165373293" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739256195615" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739358190687" Value="0.00144728777063388" Active="T" />
+  </node>
+  <node ID="637545984209871209" Title="Structure-changing proposals" DataType="Boolean" Level="Feature" Description="Structure-changing proposals" Req="C" Order="DAO Design Specification" UpperLevel="Proposals" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113845473499" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113404921037" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175736238145875" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737002264787" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737100880744" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738270925673" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738364778874" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738447470566" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738988764788" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739087691080" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739165373293" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739256195615" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739358190687" Value="0.00144728777063388" Active="T" />
+  </node>
+  <node ID="637545984212181191" Title="Funding Queues" DataType="Boolean" Level="Feature" Description="Time based funding continually flowing to different proposals based on collective preference" Req="C" Order="DAO Design Specification" UpperLevel="Proposals" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113845473499" Value="0.00144728777063388" Active="T" />
+    <link Parent="636172113404921037" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175736238145875" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737002264787" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175737100880744" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738270925673" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738364778874" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738447470566" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175738988764788" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739087691080" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739165373293" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739256195615" Value="0.00144728777063388" Active="T" />
+    <link Parent="636175739358190687" Value="0.00144728777063388" Active="T" />
+  </node>
+  <node ID="637545984214381184" Title="Manual Reputation Flow" DataType="Boolean" Level="Feature" Description="Executed proposals can grant or remove any amount of Reputation to or from an Ethereum address. DAO proposals can only be passed via DAO vote and may be the largest source of Reputation flow since reward amounts have no restrictions. Negative reputation rewards via proposal can also act as a failsafe for when the DAO feels an address has an inappropriately high level of Reputation." Req="N" Order="Reputation system" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="637545984215101207" Title="Automatic Reputation Flow" DataType="Boolean" Level="Feature" Description="Proposers receive an automatic Reputation reward if their proposal passes[comma] because passing a proposal is assumed to contribute to the DAO�s collective goals in some way. Setting this reward to be larger relative to a DAO�s total Reputation will cause the DAO�s Reputation distribution to shift more quickly over time[comma] while setting it to be smaller leads to slower change. As with all of these parameters[comma] each DAO will decide for itself what�s appropriate (possibly even setting the parameter to 0)." Req="N" Order="Reputation system" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="637545984215771209" Title="Token distribution" DataType="Boolean" Level="Feature" Description="Each agency or DAO can issue and distribute its own native tokens to contributors of value[comma] as valued by the organization" Req="M" Order="DAO Application" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738090012575" Value="1" Active="T" />
+    <link Parent="636175738180802901" Value="1" Active="T" />
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+  </node>
+  <node ID="637545984217531204" Title="Funds allocation" DataType="Boolean" Level="Feature" Description="An organization can earn[comma] or collect via its own-token sale[comma] external tokens such as ETH[comma] STK or other DAO�s tokens" Req="C" Order="DAO Application" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00148251972292554" Active="T" />
+    <link Parent="636172113845473499" Value="0.00148251972292554" Active="T" />
+    <link Parent="636172113404921037" Value="0.00148251972292554" Active="T" />
+    <link Parent="636175736238145875" Value="0.00148251972292554" Active="T" />
+    <link Parent="636175737597991212" Value="0.00148251972292554" Active="T" />
+    <link Parent="636175738090012575" Value="0.00148251972292554" Active="T" />
+    <link Parent="636175738180802901" Value="0.00148251972292554" Active="T" />
+    <link Parent="636175738270925673" Value="0.00148251972292554" Active="T" />
+    <link Parent="636175738364778874" Value="0.00148251972292554" Active="T" />
+    <link Parent="636175738447470566" Value="0.00148251972292554" Active="T" />
+    <link Parent="636175738734268804" Value="0.00148251972292554" Active="T" />
+  </node>
+  <node ID="637545984219271572" Title="Reputation assignment" DataType="Boolean" Level="Feature" Description="Each agency can assign reputation scores to its members. Reputation is a representation of one�s professional credibility[comma] and thus influence[comma] within the organization" Req="N" Order="DAO Application" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738090012575" Value="1" Active="T" />
+    <link Parent="636175738180802901" Value="1" Active="T" />
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+  </node>
+  <node ID="637545984220986852" Title="Collective data curation" DataType="Boolean" Level="Feature" Description="An organization can manage its own collective databases of objects[comma] and maintain their curation. It can be the curation of articles[comma] website[comma] organizations or anything else" Req="S" Order="DAO Application" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0829834470618672" Active="T" />
+    <link Parent="636172113845473499" Value="0.0829834470618672" Active="T" />
+    <link Parent="636172113404921037" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175736238145875" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175737597991212" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738090012575" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738180802901" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738270925673" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738364778874" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738447470566" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738734268804" Value="0.0829834470618672" Active="T" />
+  </node>
+  <node ID="637545984222846528" Title="External activity" DataType="Boolean" Level="Feature" Description="An agency can act within another agency as a single entity. For example[comma] an agency can submit a proposal inside another agency (or DAO)[comma] and vote on others� proposals" Req="N" Order="DAO Application" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738090012575" Value="1" Active="T" />
+    <link Parent="636175738180802901" Value="1" Active="T" />
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+  </node>
+  <node ID="637545984224676492" Title="Governance upgrade" DataType="Boolean" Level="Feature" Description="Each organization can configure and update its own governance system." Req="S" Order="DAO Application" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0829834470618672" Active="T" />
+    <link Parent="636172113845473499" Value="0.0829834470618672" Active="T" />
+    <link Parent="636172113404921037" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175736238145875" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175737597991212" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738090012575" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738180802901" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738270925673" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738364778874" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738447470566" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738734268804" Value="0.0829834470618672" Active="T" />
+  </node>
+  <node ID="637545984226336478" Title="Inflation Funding" DataType="Boolean" Level="Feature" Description="Set a rate at which a DAOs token is minted[comma] and a ceiling to the supply." Req="S" Order="DAO Application" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0829834470618672" Active="T" />
+    <link Parent="636172113845473499" Value="0.0829834470618672" Active="T" />
+    <link Parent="636172113404921037" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175736238145875" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175737597991212" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738090012575" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738180802901" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738270925673" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738364778874" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738447470566" Value="0.0829834470618672" Active="T" />
+    <link Parent="636175738734268804" Value="0.0829834470618672" Active="T" />
+  </node>
+  <node ID="637545984228149406" Title="Security Token Offering (STO)" DataType="Boolean" Level="Feature" Description="A security token offering / tokenized IPO is a type of public offering in which tokenized digital securities[comma] known as security tokens[comma] are sold in cryptocurrency exchanges[comma] or security token exchanges." Req="N" Order="Fundraising" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+  </node>
+  <node ID="637545984229029377" Title="Utility Token Offering (UTO)" DataType="Boolean" Level="Feature" Description="They give users access to a future product or service. Typically[comma] a tech startup develops a digital product or service and initiates an ICO (Initial Coin Offering). During the ICO[comma] the company sells utility tokens." Req="S" Order="Fundraising" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="0.0350662914173653" Active="T" />
+    <link Parent="636175738364778874" Value="0.0350662914173653" Active="T" />
+    <link Parent="636175738447470566" Value="0.0350662914173653" Active="T" />
+    <link Parent="636175739087691080" Value="0.0350662914173653" Active="T" />
+    <link Parent="636175739165373293" Value="0.0350662914173653" Active="T" />
+  </node>
+  <node ID="637545984229969388" Title="Initial coin Offering (ICO)" DataType="Boolean" Level="Feature" Description="An initial coin offering or initial currency offering is a type of funding using cryptocurrencies. It is often a form of crowdfunding[comma] however a private ICO which does not seek public investment is also possible." Req="C" Order="Fundraising" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="0.0013395978508454" Active="T" />
+    <link Parent="636175738364778874" Value="0.0013395978508454" Active="T" />
+    <link Parent="636175738447470566" Value="0.0013395978508454" Active="T" />
+    <link Parent="636175739087691080" Value="0.0013395978508454" Active="T" />
+    <link Parent="636175739165373293" Value="0.0013395978508454" Active="T" />
+  </node>
+  <node ID="637545984230879822" Title="Revenue Sharing" DataType="Boolean" Level="Feature" Description="Disburse revenue/pot of funds to members meritocratically" Req="N" Order="Fundraising" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737219451508" Value="1" Active="T" />
+    <link Parent="636175737309877731" Value="1" Active="T" />
+    <link Parent="636175737412953572" Value="1" Active="T" />
+    <link Parent="636175737493820858" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+  </node>
+  <node ID="637545984232679880" Title="Budget Box" DataType="Boolean" Level="Feature" Description="Continuous allocation of tokens to a set of proposals based on a collective ranking game " Req="N" Order="Fundraising" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+    <link Parent="636175739165373293" Value="1" Active="T" />
+    <link Parent="636175739256195615" Value="1" Active="T" />
+    <link Parent="636175739358190687" Value="1" Active="T" />
+  </node>
+  <node ID="637545984235129855" Title="On-chain" DataType="Boolean" Level="Feature" Description="Governance activities that happen external to the protocol are called �off-chain� governance[comma] They include: negotiating and entering third party contracts[comma] hiring/firing[comma] and voting (can be on-chain or offchain)." Req="M" Order="Discussion &amp; Negotiation Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+  </node>
+  <node ID="637545984236159843" Title="Off-chain" DataType="Boolean" Level="Feature" Description="Governance activities that happen external to the protocol are called �off-chain� governance[comma] They include: negotiating and entering third party contracts[comma] hiring/firing[comma] and voting (can be on-chain or offchain)." Req="N" Order="Discussion &amp; Negotiation Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+  </node>
+  <node ID="637545984237259891" Title="Linked discretionary" DataType="Boolean" Level="Feature" Description="Linked discretionary discussions are usually involving an identity-based off-chain discussion that will be referred to in an on-chain transaction[comma] once a rough consensus has been reached." Req="N" Order="Discussion &amp; Negotiation Type" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+  </node>
+  <node ID="637545984238459856" Title="Authorization (Voting Right)" DataType="Boolean" Level="Feature" Description="Authorization is a security mechanism to determine access levels or user/client privileges related to system resources." Req="N" Order="DAO Member Management" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737219451508" Value="1" Active="T" />
+    <link Parent="636175737309877731" Value="1" Active="T" />
+    <link Parent="636175737412953572" Value="1" Active="T" />
+    <link Parent="636175737493820858" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+  </node>
+  <node ID="637545984240419859" Title="Membership management" DataType="Boolean" Level="Feature" Description="Membership software (also known as an association management system) is a computer software which provides associations[comma] clubs and other membership organizations with the functionality they require to provide their services to their members." Req="S" Order="DAO Member Management" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="0.0473519485123426" Active="T" />
+    <link Parent="636172113404921037" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175735554701922" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175736318525353" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737002264787" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737100880744" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737219451508" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737309877731" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737412953572" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737493820858" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737597991212" Value="0.0473519485123426" Active="T" />
+  </node>
+  <node ID="637545984242249871" Title="Authentication/Identification" DataType="Boolean" Level="Feature" Description="Identification and authentication are commonly used as a two-step process[comma] but they are distinct activities. Identification is the claiming of an identity. This only needs to occur once per authentication or access process." Req="S" Order="DAO Member Management" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="0.0473519485123426" Active="T" />
+    <link Parent="636172113404921037" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175735554701922" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175736318525353" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737002264787" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737100880744" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737219451508" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737309877731" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737412953572" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737493820858" Value="0.0473519485123426" Active="T" />
+    <link Parent="636175737597991212" Value="0.0473519485123426" Active="T" />
+  </node>
+  <node ID="637545984244309844" Title="Permissionless" DataType="Boolean" Level="Feature" Description="It requires no permission to join and interact with." Req="N" Order="DAO Member Management" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737219451508" Value="1" Active="T" />
+    <link Parent="636175737309877731" Value="1" Active="T" />
+    <link Parent="636175737412953572" Value="1" Active="T" />
+    <link Parent="636175737493820858" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+  </node>
+  <node ID="637545984246249886" Title="Legally proper KYC" DataType="Boolean" Level="Feature" Description="Know Your Customer (KYC) procedures are a critical function to assess customer risk and a legal requirement to comply with Anti-Money Laundering (AML) laws. Effective KYC involves knowing a customers identity[comma] their financial activities and the risk they pose." Req="N" Order="DAO Member Management" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737219451508" Value="1" Active="T" />
+    <link Parent="636175737309877731" Value="1" Active="T" />
+    <link Parent="636175737412953572" Value="1" Active="T" />
+    <link Parent="636175737493820858" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+  </node>
+  <node ID="637545984248059871" Title="Independent Platform" DataType="Boolean" Level="Feature" Description="Theses DSaaS platforms are independent and are not based on (on top of) other platforms." Req="N" Order="Architecture" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+  </node>
+  <node ID="637545984249599863" Title="Extension" DataType="Boolean" Level="Feature" Description="These DSaaS platforms are extensions of other DSaaS platforms." Req="N" Order="Architecture" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+  </node>
+  <node ID="637545984251289887" Title="Onchain tools" DataType="Boolean" Level="Feature" Description="Onchain tools" Req="C" Order="Toolkit" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0014221943910766" Active="T" />
+    <link Parent="636172113845473499" Value="0.0014221943910766" Active="T" />
+    <link Parent="636172113404921037" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175735767246801" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175736238145875" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175736737414037" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175737597991212" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175737748576312" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175737916991624" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175738006728431" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175738825494524" Value="0.0014221943910766" Active="T" />
+  </node>
+  <node ID="637545984253359841" Title="Offchain tools" DataType="Boolean" Level="Feature" Description="Offchain tools" Req="C" Order="Toolkit" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0014221943910766" Active="T" />
+    <link Parent="636172113845473499" Value="0.0014221943910766" Active="T" />
+    <link Parent="636172113404921037" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175735767246801" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175736238145875" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175736737414037" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175737597991212" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175737748576312" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175737916991624" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175738006728431" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175738825494524" Value="0.0014221943910766" Active="T" />
+  </node>
+  <node ID="637545984255989883" Title="Extensibility" DataType="Boolean" Level="Feature" Description="Develop extensions which leverage underlying primitives to do new things. E.g." Req="C" Order="Toolkit" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0014221943910766" Active="T" />
+    <link Parent="636172113845473499" Value="0.0014221943910766" Active="T" />
+    <link Parent="636172113404921037" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175735767246801" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175736238145875" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175736737414037" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175737597991212" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175737748576312" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175737916991624" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175738006728431" Value="0.0014221943910766" Active="T" />
+    <link Parent="636175738825494524" Value="0.0014221943910766" Active="T" />
+  </node>
+  <node ID="637545984257960262" Title="Transparency portal" DataType="Boolean" Level="Feature" Description="Accessible overview of DAOs finances. Balances in different tokens over time[comma] transactions in and out." Req="S" Order="Toolkit" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0627582829673822" Active="T" />
+    <link Parent="636172113845473499" Value="0.0627582829673822" Active="T" />
+    <link Parent="636172113404921037" Value="0.0627582829673822" Active="T" />
+    <link Parent="636175735767246801" Value="0.0627582829673822" Active="T" />
+    <link Parent="636175736238145875" Value="0.0627582829673822" Active="T" />
+    <link Parent="636175736737414037" Value="0.0627582829673822" Active="T" />
+    <link Parent="636175737597991212" Value="0.0627582829673822" Active="T" />
+    <link Parent="636175737748576312" Value="0.0627582829673822" Active="T" />
+    <link Parent="636175737916991624" Value="0.0627582829673822" Active="T" />
+    <link Parent="636175738006728431" Value="0.0627582829673822" Active="T" />
+    <link Parent="636175738825494524" Value="0.0627582829673822" Active="T" />
+  </node>
+  <node ID="637545984260349852" Title="Legal framework" DataType="Boolean" Level="Feature" Description="legal framework toolkit that will help companies and entrepreneurs to understand the legal boundaries and protect themselves from regulatory issues." Req="N" Order="Toolkit" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175737916991624" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="637545984262459857" Title="Domains" DataType="Boolean" Level="Feature" Description="Compose a DAO of sub-domains or teams each able to control their own resources and have their own authority mechanisms" Req="N" Order="Toolkit" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175737916991624" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="637545984264659856" Title="Recovery" DataType="Boolean" Level="Feature" Description="A decentralised mechanism for halting[comma] repairing[comma] and restaring the DAO in case of problems/attack" Req="C" Order="General Feautures" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00142617186941939" Active="T" />
+    <link Parent="636172113845473499" Value="0.00142617186941939" Active="T" />
+    <link Parent="636172113404921037" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735333630105" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735459250881" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735554701922" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735636115741" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735767246801" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735861147611" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175738364778874" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175739087691080" Value="0.00142617186941939" Active="T" />
+  </node>
+  <node ID="637545984266779869" Title="Multiple payment types" DataType="Boolean" Level="Feature" Description="e.g. batch[comma] milestones[comma] salaries[comma] and payment templates." Req="C" Order="General Feautures" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00142617186941939" Active="T" />
+    <link Parent="636172113845473499" Value="0.00142617186941939" Active="T" />
+    <link Parent="636172113404921037" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735333630105" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735459250881" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735554701922" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735636115741" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735767246801" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735861147611" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175738364778874" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175739087691080" Value="0.00142617186941939" Active="T" />
+  </node>
+  <node ID="637545984268809866" Title="Analytics Dashboard" DataType="Boolean" Level="Feature" Description="for real-time system feedback" Req="C" Order="General Feautures" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.00142617186941939" Active="T" />
+    <link Parent="636172113845473499" Value="0.00142617186941939" Active="T" />
+    <link Parent="636172113404921037" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735333630105" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735459250881" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735554701922" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735636115741" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735767246801" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175735861147611" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175738364778874" Value="0.00142617186941939" Active="T" />
+    <link Parent="636175739087691080" Value="0.00142617186941939" Active="T" />
+  </node>
+  <node ID="637545984270889897" Title="IPFS" DataType="Boolean" Level="Feature" Description="The InterPlanetary File System is a protocol and peer-to-peer network for storing and sharing data in a distributed file system. IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices." Req="N" Order="Decentralized Storage Systems" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="637545984273629886" Title="Storj" DataType="Boolean" Level="Feature" Description="Storj is a decentralized system of distributed object storing[comma] which keeps information encrypted. Storj is based on Bitcoin's blockchain technology and peer-to-peer protocol in order to provide safe and efficient cloud storage." Req="N" Order="Decentralized Storage Systems" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="637545984276099855" Title="Ethereum Swarm" DataType="Boolean" Level="Feature" Description="Swarm is a distributed storage platform and content distribution service[comma] a native base layer service of the ethereum web3 stack. The primary objective of Swarm is to provide a decentralized and redundant store for dapp code and data as well as block chain and state data." Req="N" Order="Decentralized Storage Systems" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636175735554701922" Value="1" Active="T" />
+    <link Parent="636175735636115741" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175735947464498" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737002264787" Value="1" Active="T" />
+    <link Parent="636175737100880744" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738447470566" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+  </node>
+  <node ID="637545984278569916" Title="Ethereum" DataType="Boolean" Level="Feature" Description="Ethereum is a decentralized open source blockchain featuring smart contract functionality. " Req="C" Order="Infrastructure (Network)" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175735459250881" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175735767246801" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175735861147611" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175736238145875" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175737597991212" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175737748576312" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175737916991624" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175738643311819" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175738734268804" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175738825494524" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175738903715696" Value="0.00136056982642558" Active="T" />
+    <link Parent="636175739087691080" Value="0.00136056982642558" Active="T" />
+  </node>
+  <node ID="637545984280849720" Title="RSK" DataType="Boolean" Level="Feature" Description="RSK(Rootstock) is a smart contract platform that is connected to the Bitcoin blockchain through sidechain technology. It is an advanced version of QixCoin[comma] a Turing-complete cryptocurrencycreated in 2013 by the same development team. ... RSK has the potential to scale up Bitcoin cryptocurrency along with other advantages." Req="N" Order="Infrastructure (Network)" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175737916991624" Value="1" Active="T" />
+    <link Parent="636175738643311819" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175738903715696" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="637545984283309324" Title="xDai" DataType="Boolean" Level="Feature" Description="xDai chain is an EVM Ethereum sidechain that uses a dual token model xDai is used for fast and inexpensive stable transactions and STAKE[comma] a multi-chain staking token designed to secure the payment layer. " Req="N" Order="Infrastructure (Network)" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735459250881" Value="1" Active="T" />
+    <link Parent="636175735767246801" Value="1" Active="T" />
+    <link Parent="636175735861147611" Value="1" Active="T" />
+    <link Parent="636175736238145875" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175737916991624" Value="1" Active="T" />
+    <link Parent="636175738643311819" Value="1" Active="T" />
+    <link Parent="636175738734268804" Value="1" Active="T" />
+    <link Parent="636175738825494524" Value="1" Active="T" />
+    <link Parent="636175738903715696" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="637545984285509328" Title="Popularity" DataType="Numeric" Level="Feature" Description="The state of being liked[comma] enjoyed[comma] accepted[comma] or done by a large number of people" Req="S" Order="Qualitative Aspect" UpperLevel="NULL" Criterion="0.5" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0931099715600802" Active="T" />
+    <link Parent="636172113845473499" Value="0.0931099715600802" Active="T" />
+    <link Parent="636172113404921037" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175735333630105" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736089117960" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736318525353" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736574348327" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736658415155" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736737414037" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736819554476" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736907514970" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175737597991212" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175737748576312" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738006728431" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738090012575" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738180802901" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738270925673" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738364778874" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738903715696" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738988764788" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175739087691080" Value="0.0931099715600802" Active="T" />
+  </node>
+  <node ID="637545984289449347" Title="Maturity level" DataType="Numeric" Level="Feature" Description="The maturity level or capability level of an organization provides a way to characterize its capability and performance." Req="N" Order="Qualitative Aspect" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735333630105" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738090012575" Value="1" Active="T" />
+    <link Parent="636175738180802901" Value="1" Active="T" />
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738903715696" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="637545984293219436" Title="Developer Resources (People)" DataType="Numeric" Level="Feature" Description="Developer Resources (People)" Req="S" Order="Qualitative Aspect" UpperLevel="NULL" Criterion="0.5" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0931099715600802" Active="T" />
+    <link Parent="636172113845473499" Value="0.0931099715600802" Active="T" />
+    <link Parent="636172113404921037" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175735333630105" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736089117960" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736318525353" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736574348327" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736658415155" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736737414037" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736819554476" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736907514970" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175737597991212" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175737748576312" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738006728431" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738090012575" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738180802901" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738270925673" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738364778874" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738903715696" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738988764788" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175739087691080" Value="0.0931099715600802" Active="T" />
+  </node>
+  <node ID="637545984297069340" Title="Upgradability" DataType="Numeric" Level="Feature" Description="Capability of being improved in functionality by the addition or replacement of components." Req="S" Order="Qualitative Aspect" UpperLevel="NULL" Criterion="0.5" Keywords="NULL">
+    <link Parent="636172113542981195" Value="0.0931099715600802" Active="T" />
+    <link Parent="636172113845473499" Value="0.0931099715600802" Active="T" />
+    <link Parent="636172113404921037" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175735333630105" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736089117960" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736318525353" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736574348327" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736658415155" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736737414037" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736819554476" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175736907514970" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175737597991212" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175737748576312" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738006728431" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738090012575" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738180802901" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738270925673" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738364778874" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738903715696" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175738988764788" Value="0.0931099715600802" Active="T" />
+    <link Parent="636175739087691080" Value="0.0931099715600802" Active="T" />
+  </node>
+  <node ID="637545984300919319" Title="Scalability" DataType="Numeric" Level="Feature" Description="Scalability is the property of a system to handle a growing amount of work by adding resources to the system. In an economic context[comma] a scalable business model implies that a company can increase sales given increased resources. " Req="M" Order="Qualitative Aspect" UpperLevel="NULL" Criterion="0.5" Keywords="NULL">
+    <link Parent="636172113542981195" Value="1" Active="T" />
+    <link Parent="636172113845473499" Value="1" Active="T" />
+    <link Parent="636172113404921037" Value="1" Active="T" />
+    <link Parent="636175735333630105" Value="1" Active="T" />
+    <link Parent="636175736089117960" Value="1" Active="T" />
+    <link Parent="636175736318525353" Value="1" Active="T" />
+    <link Parent="636175736574348327" Value="1" Active="T" />
+    <link Parent="636175736658415155" Value="1" Active="T" />
+    <link Parent="636175736737414037" Value="1" Active="T" />
+    <link Parent="636175736819554476" Value="1" Active="T" />
+    <link Parent="636175736907514970" Value="1" Active="T" />
+    <link Parent="636175737597991212" Value="1" Active="T" />
+    <link Parent="636175737748576312" Value="1" Active="T" />
+    <link Parent="636175738006728431" Value="1" Active="T" />
+    <link Parent="636175738090012575" Value="1" Active="T" />
+    <link Parent="636175738180802901" Value="1" Active="T" />
+    <link Parent="636175738270925673" Value="1" Active="T" />
+    <link Parent="636175738364778874" Value="1" Active="T" />
+    <link Parent="636175738903715696" Value="1" Active="T" />
+    <link Parent="636175738988764788" Value="1" Active="T" />
+    <link Parent="636175739087691080" Value="1" Active="T" />
+  </node>
+  <node ID="637545984677792414" Title="Aragon" DataType="Description" Level="Alternative" Description="https://aragon.org/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984159588940" Value="1" Active="T" />
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984165754684" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984169254701" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984173910555" Value="1" Active="T" />
+    <link Parent="637545984175880520" Value="1" Active="T" />
+    <link Parent="637545984177570505" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984189079560" Value="1" Active="T" />
+    <link Parent="637545984191025997" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984195176015" Value="1" Active="T" />
+    <link Parent="637545984197176008" Value="1" Active="T" />
+    <link Parent="637545984199185972" Value="1" Active="T" />
+    <link Parent="637545984201186358" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984205411186" Value="1" Active="T" />
+    <link Parent="637545984207551188" Value="1" Active="T" />
+    <link Parent="637545984209871209" Value="1" Active="T" />
+    <link Parent="637545984212181191" Value="1" Active="T" />
+    <link Parent="637545984215101207" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984220986852" Value="1" Active="T" />
+    <link Parent="637545984222846528" Value="1" Active="T" />
+    <link Parent="637545984224676492" Value="1" Active="T" />
+    <link Parent="637545984226336478" Value="1" Active="T" />
+    <link Parent="637545984228149406" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984232679880" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984257960262" Value="1" Active="T" />
+    <link Parent="637545984262459857" Value="1" Active="T" />
+    <link Parent="637545984264659856" Value="1" Active="T" />
+    <link Parent="637545984266779869" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984276099855" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.9" Active="T" />
+    <link Parent="637545984289449347" Value="0.9" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984677982376" Title="Colony" DataType="Description" Level="Alternative" Description="https://colony.io/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984159588940" Value="1" Active="T" />
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984165064685" Value="1" Active="T" />
+    <link Parent="637545984165754684" Value="1" Active="T" />
+    <link Parent="637545984166484717" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984169254701" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984173910555" Value="1" Active="T" />
+    <link Parent="637545984175880520" Value="1" Active="T" />
+    <link Parent="637545984177570505" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984180370533" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984191025997" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984195176015" Value="1" Active="T" />
+    <link Parent="637545984197176008" Value="1" Active="T" />
+    <link Parent="637545984199185972" Value="1" Active="T" />
+    <link Parent="637545984201186358" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984205411186" Value="1" Active="T" />
+    <link Parent="637545984207551188" Value="1" Active="T" />
+    <link Parent="637545984209871209" Value="1" Active="T" />
+    <link Parent="637545984212181191" Value="1" Active="T" />
+    <link Parent="637545984214381184" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984220986852" Value="1" Active="T" />
+    <link Parent="637545984222846528" Value="1" Active="T" />
+    <link Parent="637545984224676492" Value="1" Active="T" />
+    <link Parent="637545984226336478" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984229969388" Value="1" Active="T" />
+    <link Parent="637545984230879822" Value="1" Active="T" />
+    <link Parent="637545984232679880" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984237259891" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984257960262" Value="1" Active="T" />
+    <link Parent="637545984262459857" Value="1" Active="T" />
+    <link Parent="637545984264659856" Value="1" Active="T" />
+    <link Parent="637545984266779869" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.9" Active="T" />
+    <link Parent="637545984289449347" Value="0.9" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984678172382" Title="MakerDAO" DataType="Description" Level="Alternative" Description="https://makerdao.com/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984159588940" Value="1" Active="T" />
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984173910555" Value="1" Active="T" />
+    <link Parent="637545984175880520" Value="1" Active="T" />
+    <link Parent="637545984177570505" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984180370533" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984191025997" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984195176015" Value="1" Active="T" />
+    <link Parent="637545984199185972" Value="1" Active="T" />
+    <link Parent="637545984201186358" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984205411186" Value="1" Active="T" />
+    <link Parent="637545984207551188" Value="1" Active="T" />
+    <link Parent="637545984209871209" Value="1" Active="T" />
+    <link Parent="637545984212181191" Value="1" Active="T" />
+    <link Parent="637545984214381184" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984220986852" Value="1" Active="T" />
+    <link Parent="637545984224676492" Value="1" Active="T" />
+    <link Parent="637545984226336478" Value="1" Active="T" />
+    <link Parent="637545984230879822" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984237259891" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984257960262" Value="1" Active="T" />
+    <link Parent="637545984262459857" Value="1" Active="T" />
+    <link Parent="637545984264659856" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.9" Active="T" />
+    <link Parent="637545984289449347" Value="0.9" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984678372410" Title="DAOStack" DataType="Description" Level="Alternative" Description="https://daostack.io/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984159588940" Value="1" Active="T" />
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984165754684" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984168564674" Value="1" Active="T" />
+    <link Parent="637545984169254701" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984173910555" Value="1" Active="T" />
+    <link Parent="637545984175880520" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984180370533" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984189079560" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984195176015" Value="1" Active="T" />
+    <link Parent="637545984199185972" Value="1" Active="T" />
+    <link Parent="637545984201186358" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984212181191" Value="1" Active="T" />
+    <link Parent="637545984214381184" Value="1" Active="T" />
+    <link Parent="637545984215101207" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984220986852" Value="1" Active="T" />
+    <link Parent="637545984222846528" Value="1" Active="T" />
+    <link Parent="637545984224676492" Value="1" Active="T" />
+    <link Parent="637545984226336478" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984229969388" Value="1" Active="T" />
+    <link Parent="637545984230879822" Value="1" Active="T" />
+    <link Parent="637545984232679880" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984237259891" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984257960262" Value="1" Active="T" />
+    <link Parent="637545984262459857" Value="1" Active="T" />
+    <link Parent="637545984264659856" Value="1" Active="T" />
+    <link Parent="637545984266779869" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.9" Active="T" />
+    <link Parent="637545984289449347" Value="0.9" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984678632402" Title="Tezos" DataType="Description" Level="Alternative" Description="https://tezos.com/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984165064685" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984205411186" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984246249886" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984262459857" Value="1" Active="T" />
+    <link Parent="637545984268809866" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984283309324" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.9" Active="T" />
+    <link Parent="637545984289449347" Value="0.5" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984679002376" Title="Molochdao" DataType="Description" Level="Alternative" Description="https://www.molochdao.com/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984163384778" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984164294758" Value="1" Active="T" />
+    <link Parent="637545984165754684" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984173910555" Value="1" Active="T" />
+    <link Parent="637545984177570505" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984181610574" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984212181191" Value="1" Active="T" />
+    <link Parent="637545984214381184" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984232679880" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984266779869" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984283309324" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.5" Active="T" />
+    <link Parent="637545984289449347" Value="0.5" Active="T" />
+    <link Parent="637545984293219436" Value="0.1" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984679312372" Title="Wings" DataType="Description" Level="Alternative" Description="https://www.wings.ai/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984163384778" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984207551188" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984246249886" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984260349852" Value="1" Active="T" />
+    <link Parent="637545984268809866" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984273629886" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984280849720" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.9" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984679602435" Title="Kleros" DataType="Description" Level="Alternative" Description="https://kleros.io/en/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984159588940" Value="1" Active="T" />
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984180370533" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984207551188" Value="1" Active="T" />
+    <link Parent="637545984209871209" Value="1" Active="T" />
+    <link Parent="637545984212181191" Value="1" Active="T" />
+    <link Parent="637545984215101207" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.5" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.5" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.5" Active="T" />
+  </node>
+  <node ID="637545984679802408" Title="Infinity economics" DataType="Description" Level="Alternative" Description="https://web.infinity-economics.org/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984187049594" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984224676492" Value="1" Active="T" />
+    <link Parent="637545984226336478" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984257960262" Value="1" Active="T" />
+    <link Parent="637545984266779869" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.9" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984680092495" Title="OpenLaw" DataType="Description" Level="Alternative" Description="https://www.openlaw.io/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984159588940" Value="1" Active="T" />
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984165754684" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984173910555" Value="1" Active="T" />
+    <link Parent="637545984177570505" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984266779869" Value="1" Active="T" />
+    <link Parent="637545984268809866" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984283309324" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.5" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.5" Active="T" />
+  </node>
+  <node ID="637545984680322375" Title="DXdao" DataType="Description" Level="Alternative" Description="https://dxdao.eth.link/#/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984159588940" Value="1" Active="T" />
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984173910555" Value="1" Active="T" />
+    <link Parent="637545984175880520" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984180370533" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984214381184" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984220986852" Value="1" Active="T" />
+    <link Parent="637545984222846528" Value="1" Active="T" />
+    <link Parent="637545984224676492" Value="1" Active="T" />
+    <link Parent="637545984226336478" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984229969388" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984249599863" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984283309324" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.5" Active="T" />
+    <link Parent="637545984289449347" Value="0.5" Active="T" />
+    <link Parent="637545984293219436" Value="0.1" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.1" Active="T" />
+  </node>
+  <node ID="637545984680592397" Title="Pocket Network DAO" DataType="Description" Level="Alternative" Description="https://www.pokt.network/governance/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984165064685" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984173910555" Value="1" Active="T" />
+    <link Parent="637545984175880520" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984195176015" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984207551188" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984228149406" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984237259891" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984249599863" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984260349852" Value="1" Active="T" />
+    <link Parent="637545984268809866" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.9" Active="T" />
+    <link Parent="637545984289449347" Value="0.5" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.1" Active="T" />
+  </node>
+  <node ID="637545984680782378" Title="Holochain" DataType="Description" Level="Alternative" Description="https://holochain.org/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984180370533" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984232679880" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984237259891" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.9" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984680982372" Title="Ventuary DAO" DataType="Description" Level="Alternative" Description="https://beta.ventuary.space/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984167774677" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984195176015" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984207551188" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984257960262" Value="1" Active="T" />
+    <link Parent="637545984266779869" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.5" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.1" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984681192403" Title="MetaCartel" DataType="Description" Level="Alternative" Description="https://www.metacartel.org/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984159588940" Value="1" Active="T" />
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984165064685" Value="1" Active="T" />
+    <link Parent="637545984167774677" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984181610574" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984205411186" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.1" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.5" Active="T" />
+  </node>
+  <node ID="637545984681402482" Title="DaoHub" DataType="Description" Level="Alternative" Description="https://daohub.io/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984189079560" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984205411186" Value="1" Active="T" />
+    <link Parent="637545984207551188" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984257960262" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.1" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.1" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984681632384" Title="Daohaus" DataType="Description" Level="Alternative" Description="https://daohaus.club/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984165754684" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984181610574" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984214381184" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984249599863" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984283309324" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.1" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.1" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.1" Active="T" />
+  </node>
+  <node ID="637545984681832366" Title="The Commons Stack" DataType="Description" Level="Alternative" Description="https://commonsstack.org/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984165064685" Value="1" Active="T" />
+    <link Parent="637545984167774677" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984180370533" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984195176015" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984268809866" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984283309324" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.1" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.9" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.5" Active="T" />
+  </node>
+  <node ID="637545984682022380" Title="The LAO" DataType="Description" Level="Alternative" Description="https://docs.thelao.io/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984165754684" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984173910555" Value="1" Active="T" />
+    <link Parent="637545984177570505" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984246249886" Value="1" Active="T" />
+    <link Parent="637545984249599863" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.5" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.5" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.1" Active="T" />
+  </node>
+  <node ID="637545984682252378" Title="BalancedDAO" DataType="Description" Level="Alternative" Description="https://balanced.network/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984207551188" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984264659856" Value="1" Active="T" />
+    <link Parent="637545984266779869" Value="1" Active="T" />
+    <link Parent="637545984268809866" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.1" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.1" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984682442371" Title="PhutureDAO" DataType="Description" Level="Alternative" Description="https://www.phuturedao.com/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984273629886" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.1" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.1" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.5" Active="T" />
+  </node>
+  <node ID="637545984682652414" Title="WhalerDAO" DataType="Description" Level="Alternative" Description="https://whalerdao.org/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984164294758" Value="1" Active="T" />
+    <link Parent="637545984165064685" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984195176015" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984283309324" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.1" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.1" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.5" Active="T" />
+  </node>
+  <node ID="637545984682912417" Title="UNI DAO" DataType="Description" Level="Alternative" Description="https://unidao.fund/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984159588940" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984173910555" Value="1" Active="T" />
+    <link Parent="637545984175880520" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984220986852" Value="1" Active="T" />
+    <link Parent="637545984222846528" Value="1" Active="T" />
+    <link Parent="637545984224676492" Value="1" Active="T" />
+    <link Parent="637545984226336478" Value="1" Active="T" />
+    <link Parent="637545984228149406" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984249599863" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984264659856" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984276099855" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.5" Active="T" />
+    <link Parent="637545984289449347" Value="0.5" Active="T" />
+    <link Parent="637545984293219436" Value="0.5" Active="T" />
+    <link Parent="637545984297069340" Value="0.5" Active="T" />
+    <link Parent="637545984300919319" Value="0.1" Active="T" />
+  </node>
+  <node ID="637545984683262416" Title="Mstable DAO" DataType="Description" Level="Alternative" Description="https://mstable.org/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984180370533" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984249599863" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984283309324" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.5" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.5" Active="T" />
+    <link Parent="637545984297069340" Value="0.5" Active="T" />
+    <link Parent="637545984300919319" Value="0.1" Active="T" />
+  </node>
+  <node ID="637545984683492353" Title="GovBlocks" DataType="Description" Level="Alternative" Description="https://govblocks.io/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984189079560" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984203375924" Value="1" Active="T" />
+    <link Parent="637545984207551188" Value="1" Active="T" />
+    <link Parent="637545984209871209" Value="1" Active="T" />
+    <link Parent="637545984214381184" Value="1" Active="T" />
+    <link Parent="637545984215101207" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984232679880" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984236159843" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984255989883" Value="1" Active="T" />
+    <link Parent="637545984268809866" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984280849720" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.5" Active="T" />
+    <link Parent="637545984289449347" Value="0.5" Active="T" />
+    <link Parent="637545984293219436" Value="0.5" Active="T" />
+    <link Parent="637545984297069340" Value="0.9" Active="T" />
+    <link Parent="637545984300919319" Value="0.9" Active="T" />
+  </node>
+  <node ID="637545984683762404" Title="1HiveDAO" DataType="Description" Level="Alternative" Description="https://1hive.org/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984159588940" Value="1" Active="T" />
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984162939518" Value="1" Active="T" />
+    <link Parent="637545984167184677" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984219271572" Value="1" Active="T" />
+    <link Parent="637545984220986852" Value="1" Active="T" />
+    <link Parent="637545984222846528" Value="1" Active="T" />
+    <link Parent="637545984224676492" Value="1" Active="T" />
+    <link Parent="637545984226336478" Value="1" Active="T" />
+    <link Parent="637545984228149406" Value="1" Active="T" />
+    <link Parent="637545984229029377" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984244309844" Value="1" Active="T" />
+    <link Parent="637545984249599863" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984253359841" Value="1" Active="T" />
+    <link Parent="637545984264659856" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984276099855" Value="1" Active="T" />
+    <link Parent="637545984283309324" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.1" Active="T" />
+    <link Parent="637545984289449347" Value="0.5" Active="T" />
+    <link Parent="637545984293219436" Value="0.5" Active="T" />
+    <link Parent="637545984297069340" Value="0.5" Active="T" />
+    <link Parent="637545984300919319" Value="0.1" Active="T" />
+  </node>
+  <node ID="637545984684082394" Title="Nexus mutual" DataType="Description" Level="Alternative" Description="https://nexusmutual.io/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984166484717" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984192995956" Value="1" Active="T" />
+    <link Parent="637545984207551188" Value="1" Active="T" />
+    <link Parent="637545984217531204" Value="1" Active="T" />
+    <link Parent="637545984224676492" Value="1" Active="T" />
+    <link Parent="637545984235129855" Value="1" Active="T" />
+    <link Parent="637545984240419859" Value="1" Active="T" />
+    <link Parent="637545984242249871" Value="1" Active="T" />
+    <link Parent="637545984246249886" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984251289887" Value="1" Active="T" />
+    <link Parent="637545984257960262" Value="1" Active="T" />
+    <link Parent="637545984260349852" Value="1" Active="T" />
+    <link Parent="637545984268809866" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984283309324" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.9" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.5" Active="T" />
+    <link Parent="637545984297069340" Value="0.5" Active="T" />
+    <link Parent="637545984300919319" Value="0.5" Active="T" />
+  </node>
+  <node ID="637545984684502411" Title="Compound " DataType="Description" Level="Alternative" Description="https://compound.finance/" Req="N" Order="NULL" UpperLevel="NULL" Criterion="None" Keywords="NULL">
+    <link Parent="637545984159588940" Value="1" Active="T" />
+    <link Parent="637545984161224260" Value="1" Active="T" />
+    <link Parent="637545984163764666" Value="1" Active="T" />
+    <link Parent="637545984166484717" Value="1" Active="T" />
+    <link Parent="637545984168564674" Value="1" Active="T" />
+    <link Parent="637545984170014673" Value="1" Active="T" />
+    <link Parent="637545984171844694" Value="1" Active="T" />
+    <link Parent="637545984179300560" Value="1" Active="T" />
+    <link Parent="637545984182820516" Value="1" Active="T" />
+    <link Parent="637545984184859986" Value="1" Active="T" />
+    <link Parent="637545984187049594" Value="1" Active="T" />
+    <link Parent="637545984215771209" Value="1" Active="T" />
+    <link Parent="637545984238459856" Value="1" Active="T" />
+    <link Parent="637545984248059871" Value="1" Active="T" />
+    <link Parent="637545984268809866" Value="1" Active="T" />
+    <link Parent="637545984270889897" Value="1" Active="T" />
+    <link Parent="637545984278569916" Value="1" Active="T" />
+    <link Parent="637545984283309324" Value="1" Active="T" />
+    <link Parent="637545984285509328" Value="0.9" Active="T" />
+    <link Parent="637545984289449347" Value="0.1" Active="T" />
+    <link Parent="637545984293219436" Value="0.5" Active="T" />
+    <link Parent="637545984297069340" Value="0.1" Active="T" />
+    <link Parent="637545984300919319" Value="0.5" Active="T" />
+  </node>
+</DecisionTree>

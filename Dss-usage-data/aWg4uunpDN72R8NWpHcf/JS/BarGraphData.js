@@ -1,0 +1,1 @@
+ FeasibleSolutionsScores = [ ["Solution", "Score (%)", { role: "style" }],["Microsoft Azure",99, "#3CB371"],["Leaseweb",99, "#1E90FF"],["Google Cloud",99, "#FF6347"],["KPN (iS)",99, "#EE82EE"]];

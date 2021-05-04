@@ -1,0 +1,1 @@
+ FeasibleSolutionsScores = [ ["Solution", "Score (%)", { role: "style" }],["Colony",94, "#3CB371"],["Aragon",88, "#1E90FF"],["DAOStack",86, "#FF6347"],["MakerDAO",83, "#EE82EE"],["Molochdao",48, "#808000"],["Kleros",37, "#800000"]];

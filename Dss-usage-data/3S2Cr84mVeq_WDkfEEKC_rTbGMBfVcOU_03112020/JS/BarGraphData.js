@@ -1,0 +1,1 @@
+ FeasibleSolutionsScores = [ ["Solution", "Score (%)", { role: "style" }],["B Impact Assessment",71, "#3CB371"],["STARS - Sustainability Tracking[comma] Assessment and Rating System",55, "#1E90FF"]];

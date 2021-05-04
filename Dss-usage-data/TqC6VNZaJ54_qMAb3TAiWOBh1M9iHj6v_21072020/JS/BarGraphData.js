@@ -1,0 +1,1 @@
+ FeasibleSolutionsScores = [ ["Solution", "Score (%)", { role: "style" }],["Appian",98, "#3CB371"],["Kissflow",98, "#1E90FF"],["Software AG ( AgileApps Live)",34, "#FF6347"]];

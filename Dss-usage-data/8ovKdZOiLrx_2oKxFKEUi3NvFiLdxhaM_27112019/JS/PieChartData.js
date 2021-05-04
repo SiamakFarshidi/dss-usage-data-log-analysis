@@ -1,0 +1,1 @@
+QualityAttributesRatio = [['Quality Attributes', 'Impacts'],['Maintainability', 17],['Functional suitability', 11],['Reliability', 19],['Performance efficiency', 9],['Usability', 12],['Security', 10],['Portability', 11],['Cost', 4],['Compatibility', 6]];

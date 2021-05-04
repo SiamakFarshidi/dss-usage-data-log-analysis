@@ -1,0 +1,1 @@
+ FeasibleSolutionsScores = [ ["Solution", "Score (%)", { role: "style" }],["Hyperledger",61, "#3CB371"],["Ethereum",51, "#1E90FF"],["NEO",42, "#FF6347"],["ICON",42, "#EE82EE"],["HydraChain",41, "#808000"],["JPMorgan Quorum",32, "#800000"],["Stellar",32, "#008B8B"],["Stratis",25, "#DC143C"],["R3 Corda",22, "#4B0082"],["Ripple",13, "#00BFFF"]];

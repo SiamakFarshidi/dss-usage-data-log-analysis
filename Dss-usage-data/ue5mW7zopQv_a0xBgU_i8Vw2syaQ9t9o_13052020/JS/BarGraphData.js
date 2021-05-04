@@ -1,0 +1,1 @@
+ FeasibleSolutionsScores = [ ["Solution", "Score (%)", { role: "style" }],["Rackspace",100, "#3CB371"],["Google Cloud",100, "#1E90FF"],["Amazon (AWS)",94, "#FF6347"],["Microsoft Azure",94, "#EE82EE"],["Fujitsu",76, "#808000"],["Oracle Cloud",51, "#800000"],["IBM Cloud",51, "#008B8B"],["Alibaba Cloud",32, "#DC143C"]];

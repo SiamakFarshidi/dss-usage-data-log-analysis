@@ -1,0 +1,1 @@
+ FeasibleSolutionsScores = [ ["Solution", "Score (%)", { role: "style" }],["Neo4j Community Edition (3.1.3)",0, "#3CB371"],["OrientDB Enterprise Edition (2.2.17)",0, "#1E90FF"],["ArangoDB Community Edition (3.1)",0, "#FF6347"],["Titan (1.0)",0, "#EE82EE"],["Virtuoso Open-Source Edition (7.2)",0, "#808000"],["Virtuoso Commercial Edition (7.2)",0, "#800000"]];

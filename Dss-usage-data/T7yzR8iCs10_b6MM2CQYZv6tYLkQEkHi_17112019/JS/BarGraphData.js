@@ -1,0 +1,1 @@
+ FeasibleSolutionsScores = [ ["Solution", "Score (%)", { role: "style" }],["HS:{CQRS,SPB,MVC}",100, "#3CB371"],["HS:{CQRS,SPB,PAC}",100, "#1E90FF"],["HS:{CQRS,SPB,C2}",100, "#FF6347"],["HS:{CQRS,SPB,CS}",100, "#EE82EE"]];

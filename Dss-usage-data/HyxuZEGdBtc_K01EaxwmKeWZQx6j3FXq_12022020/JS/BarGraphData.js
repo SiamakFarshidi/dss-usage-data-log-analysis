@@ -1,0 +1,1 @@
+ FeasibleSolutionsScores = [ ["Solution", "Score (%)", { role: "style" }],["NTT Communications",0, "#3CB371"],["IBM Cloud",0, "#1E90FF"],["Interoute",0, "#FF6347"]];
